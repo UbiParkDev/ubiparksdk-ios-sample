@@ -1,0 +1,6 @@
+framework module Pods_UbiParkSDKDemoTests {
+  umbrella header "Pods-UbiParkSDKDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="UbiParkSDKDemo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" preservesSuperviewLayoutMargins="YES" axis="vertical" alignment="center" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="lCZ-u4-P1a">
+                                <rect key="frame" x="131.15789473684231" y="149.42105263157896" width="150" height="598"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="U39-S2-lKn">
+                                        <rect key="frame" x="52" y="0.0" width="46" height="30"/>
+                                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                                        <state key="normal" title="Create"/>
+                                        <connections>
+                                            <action selector="createClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="c2i-Ik-6nP"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G9b-hF-Ppa">
+                                        <rect key="frame" x="0.0" y="47" width="150" height="30"/>
+                                        <state key="normal" title="Create (No Password)"/>
+                                        <connections>
+                                            <action selector="createUserClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Lwu-Fo-ahs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TH8-6H-o38">
+                                        <rect key="frame" x="54" y="94" width="42" height="30"/>
+                                        <state key="normal" title="Log In"/>
+                                        <connections>
+                                            <action selector="loginClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Rym-jG-Q99"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tgs-iX-0xK">
+                                        <rect key="frame" x="55" y="141" width="40" height="30"/>
+                                        <state key="normal" title="Detail"/>
+                                        <connections>
+                                            <action selector="detailClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pfF-Rq-wUB"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KjN-Zj-BEl">
+                                        <rect key="frame" x="49.5" y="188" width="51" height="30"/>
+                                        <state key="normal" title="Update"/>
+                                        <connections>
+                                            <action selector="updateClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="abM-bU-CQg"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IkV-wn-V7u">
+                                        <rect key="frame" x="53" y="235" width="44" height="30"/>
+                                        <state key="normal" title="Status"/>
+                                        <connections>
+                                            <action selector="statusClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FUz-uK-FuC"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wpU-Nw-7iy">
+                                        <rect key="frame" x="36.5" y="282" width="77" height="30"/>
+                                        <state key="normal" title="Auth Token"/>
+                                        <connections>
+                                            <action selector="authTokenClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QeI-qu-zMs"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VXO-aN-ikB">
+                                        <rect key="frame" x="24" y="329" width="102" height="30"/>
+                                        <state key="normal" title="Car Park Detail"/>
+                                        <connections>
+                                            <action selector="carParkDetailClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DBq-ti-2K3"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TNX-qf-JYm">
+                                        <rect key="frame" x="56.5" y="376" width="37" height="30"/>
+                                        <state key="normal" title="Enter"/>
+                                        <connections>
+                                            <action selector="enterClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OPM-Hb-VqN"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j7i-AJ-nDR">
+                                        <rect key="frame" x="60" y="423" width="30" height="30"/>
+                                        <state key="normal" title="Exit"/>
+                                        <connections>
+                                            <action selector="exitClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mdu-1K-QBJ"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9r0-wj-Nk8">
+                                        <rect key="frame" x="3" y="470" width="144" height="30"/>
+                                        <state key="normal" title="Start Beacon Service"/>
+                                        <connections>
+                                            <action selector="startServiceClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5vh-VY-buR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6qE-VS-JsP">
+                                        <rect key="frame" x="3.5" y="517" width="143" height="30"/>
+                                        <state key="normal" title="Stop Beacon Service"/>
+                                        <connections>
+                                            <action selector="stopServiceClick:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yZl-V4-dGF"/>
+                                        </connections>
+                                    </button>
+                                    <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="UbiPark SDK Test" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v5j-FZ-X24">
+                                        <rect key="frame" x="4" y="564" width="142" height="34"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                    </view>
+                    <connections>
+                        <outlet property="closestLaneLabel" destination="v5j-FZ-X24" id="A3g-bI-aZ4"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="83.705357142857139"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

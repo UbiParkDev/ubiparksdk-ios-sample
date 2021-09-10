@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/Pods-UbiParkSDKDemo/Pods-UbiParkSDKDemo-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/UbiParkSDK/UbiParkSDK.framework/UbiParkSDK

@@ -1,0 +1,28 @@
+PODS:
+  - Toaster (2.3.0)
+  - UbiParkSDK (1.0.12)
+
+DEPENDENCIES:
+  - Toaster
+  - UbiParkSDK (from `https://github.com/UbiParkDev/ubiparksdk-ios.git`)
+
+SPEC REPOS:
+  trunk:
+    - Toaster
+
+EXTERNAL SOURCES:
+  UbiParkSDK:
+    :git: https://github.com/UbiParkDev/ubiparksdk-ios.git
+
+CHECKOUT OPTIONS:
+  UbiParkSDK:
+    :commit: 940c29b09da222d4103cf85d075b40ed13002efe
+    :git: https://github.com/UbiParkDev/ubiparksdk-ios.git
+
+SPEC CHECKSUMS:
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+  UbiParkSDK: 93c9ee7add67363cadda91ef23c3ca722541df4c
+
+PODFILE CHECKSUM: 5f55133fb61753d83159f1a9bc0135cab61df4ef
+
+COCOAPODS: 1.10.1

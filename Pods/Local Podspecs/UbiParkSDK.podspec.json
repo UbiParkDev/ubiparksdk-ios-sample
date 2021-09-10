@@ -1,0 +1,21 @@
+{
+  "name": "UbiParkSDK",
+  "version": "1.0.12",
+  "license": {
+    "type": "Commercial"
+  },
+  "summary": "UbiParkSDK for integration with UbiPark.",
+  "description": "An SDK for integrating your app with UbiPark.",
+  "homepage": "https://www.ubipark.com",
+  "authors": "UbiPark",
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source": {
+    "git": "https://github.com/UbiParkDev/ubiparksdk-ios.git",
+    "tag": "1.0.12"
+  },
+  "ios": {
+    "vendored_frameworks": "UbiParkSDK.xcframework"
+  }
+}
