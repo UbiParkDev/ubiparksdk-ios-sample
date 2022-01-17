@@ -1,11 +1,12 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.4.2 (swiftlang-1205.0.28.2 clang-1205.0.19.57)
+// swift-compiler-version: Apple Swift version 5.5.2 (swiftlang-1300.0.47.5 clang-1300.0.29.30)
 // swift-module-flags: -target arm64-apple-ios10.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UbiParkSDK
 import UbiParkSDK.BlueCatsSDK
 import Foundation
 import Swift
 import UIKit
 @_exported import UbiParkSDK
+import _Concurrency
 public class LaneResult : Swift.Codable {
   public var laneId: Swift.Int64
   public var laneType: Swift.Int64
@@ -315,10 +316,8 @@ public class BeaconService {
   public init()
   public func setTimerEnabled(enabled: Swift.Bool)
   public func getClosestLane() -> UbiParkSDK.LaneModel?
-  public func setClosestLane(closestLane: UbiParkSDK.LaneModel?)
   public func getCarParkName() -> Swift.String
   public func getCarParkId() -> Swift.Int64
-  public func reset(outOfRange: Swift.Bool)
   public func initService()
   public func startService(completionBlock: @escaping (UbiParkSDK.BeaconServiceResult) -> Swift.Void)
   public func stopService(completionBlock: @escaping (UbiParkSDK.BeaconServiceResult) -> Swift.Void)
@@ -326,15 +325,7 @@ public class BeaconService {
   public func onForeground()
   public func onEnter()
   public func onExit()
-  public func updateRangedBeacons(beaconModels: [UbiParkSDK.BeaconModel])
-  public func getAcceptableLaneTypes() -> [Swift.Int64]
   public func setUserStatus(userStatus: UbiParkSDK.StatusResult)
-  @objc public class BeaconManagerDelegateImp : ObjectiveC.NSObject, UbiParkSDK.BCBeaconManagerDelegate {
-    public init(beaconService: UbiParkSDK.BeaconService)
-    @objc public func beaconManager(_ monitor: UbiParkSDK.BCBeaconManager!, didRangeBeacons beacons: [UbiParkSDK.BCBeacon]!)
-    @objc override dynamic public init()
-    @objc deinit
-  }
   @objc deinit
 }
 public class CarParkModel {
@@ -513,7 +504,7 @@ public struct NoticeLaneInfoResult : Swift.Codable {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UserAPI {
-  public static func create(email: Swift.String, firstname: Swift.String, lastname: Swift.String, phoneNo: Swift.String, password: Swift.String, facebookAccessToken: Swift.String, applIdAccessToken: Swift.String) -> UbiParkSDK.UserResult
+  public static func create(email: Swift.String, firstname: Swift.String, lastname: Swift.String, phoneNo: Swift.String, password: Swift.String, facebookAccessToken: Swift.String, appleIdAccessToken: Swift.String) -> UbiParkSDK.UserResult
   public static func create(userRequest: UbiParkSDK.UserRequest) -> UbiParkSDK.UserResult
   public static func create(userRequest: UbiParkSDK.UserRequest, completionBlock: @escaping (UbiParkSDK.UserResult?, Swift.Error?) -> Swift.Void)
   public static func createUser(email: Swift.String, firstname: Swift.String, lastname: Swift.String, phoneNo: Swift.String) -> UbiParkSDK.CreateUserResult
@@ -538,8 +529,12 @@ public struct NoticeLaneInfoResult : Swift.Codable {
   @objc deinit
 }
 public enum BeaconLogLevel : Swift.Int, Swift.Comparable {
+  case none
+  case low
+  case med
+  case high
+  case verbose
   public static func < (lhs: UbiParkSDK.BeaconLogLevel, rhs: UbiParkSDK.BeaconLogLevel) -> Swift.Bool
-  case none, low, med, high, verbose
   public init?(rawValue: Swift.Int)
   public typealias RawValue = Swift.Int
   public var rawValue: Swift.Int {

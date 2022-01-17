@@ -1,6 +1,6 @@
 {
   "name": "UbiParkSDK",
-  "version": "1.0.12",
+  "version": "1.0.14",
   "license": {
     "type": "Commercial"
   },
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/UbiParkDev/ubiparksdk-ios.git",
-    "tag": "1.0.12"
+    "tag": "1.0.14"
   },
   "ios": {
     "vendored_frameworks": "UbiParkSDK.xcframework"
