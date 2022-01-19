@@ -1,6 +1,6 @@
 PODS:
   - Toaster (2.3.0)
-  - UbiParkSDK (1.0.14)
+  - UbiParkSDK (1.0.15)
 
 DEPENDENCIES:
   - Toaster
@@ -16,12 +16,12 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UbiParkSDK:
-    :commit: 43e333baf44255dfe14d6eca96fccd3b622caf7c
+    :commit: cef7e12b39c014a7398038a95c74cfaf9185002b
     :git: https://github.com/UbiParkDev/ubiparksdk-ios.git
 
 SPEC CHECKSUMS:
   Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
-  UbiParkSDK: f4857d6dab1e9484f8b3f78f5e37f187c7fec760
+  UbiParkSDK: 536585fc5930306a55d9142e35ef77632f0cc91f
 
 PODFILE CHECKSUM: 5f55133fb61753d83159f1a9bc0135cab61df4ef
 
