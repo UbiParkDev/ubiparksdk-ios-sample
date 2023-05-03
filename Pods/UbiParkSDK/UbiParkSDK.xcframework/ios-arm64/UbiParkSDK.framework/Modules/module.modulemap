@@ -1,0 +1,10 @@
+framework module UbiParkSDK {
+    umbrella header "UbiParkSDK.h"
+     export *
+}
+
+
+module UbiParkSDK.Swift {
+  header "UbiParkSDK-Swift.h"
+  requires objc
+}

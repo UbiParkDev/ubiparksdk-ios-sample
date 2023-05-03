@@ -7,7 +7,8 @@ target 'UbiParkSDKDemo' do
 
   # Pods for UbiParkSDKDemo
   pod 'UbiParkSDK', :git => 'https://github.com/UbiParkDev/ubiparksdk-ios.git'
-  pod 'Toaster'
+  pod 'KontaktSDK', '~> 3.0'
+  pod 'Toast-Swift', '~> 5.0.1'
 
   target 'UbiParkSDKDemoTests' do
     inherit! :search_paths

@@ -5,17 +5,9 @@
 //  Created by Admin on 10/1/21.
 //
 
-/*
- 
-https://stackoverflow.com/questions/63932158/xcode12-issus-ld-building-for-ios-simulator-but-linking-in-object-file-built
-
- Exclude arm64 for "Any iOS Simulator SDK"
-
-*/
-
 import UIKit
 import UbiParkSDK
-import Toaster
+import Toast_Swift
 
 class ViewController: UIViewController {
     @IBOutlet weak var closestLaneLabel: UITextField!
@@ -28,13 +20,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         // Request location
-        BlueCatsSDK.requestAlwaysLocationAuthorization()
+        //BlueCatsSDK.requestAlwaysLocationAuthorization()
         
         UbiParkSDKConfig.setServerName(serverName: "https://staging.ubipark.com") // Production api is located: https://api.ubipark.com
 
         // Set supplied configuration secrets
         UbiParkSDKConfig.setAppId(appId: "{ADD YOUR AppID HERE") // AppID
-        UbiParkSDKConfig.setBeaconToken(beaconToken: "ADD YOUR BeaconToken HERE") // BeaconToken
+        //UbiParkSDKConfig.setBeaconToken(beaconToken: "ADD YOUR BeaconToken HERE") // BeaconToken
         UbiParkSDKConfig.setClientSecret(clientSecret: "ADD YOU ClientSecret HERE") // Client Secret
        
         UbiParkSDKConfig.setBeaconLogLevel(beaconLogLevel: BeaconLogLevel.verbose)
@@ -69,8 +61,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(userResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("Create result:" + jsonString)
-            let toast = Toast(text: "Create result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("Create result:" + jsonString, duration: 3.0)
             
             if (userResult.result == "Success") {
                 UbiParkSDKConfig.setUserId(userId: userResult.userId)
@@ -104,8 +95,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(createUserResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("CreateUser result:" + jsonString)
-            let toast = Toast(text: "CreateUser result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("CreateUser result:" + jsonString, duration: 3.0)
             
             if (createUserResult.result == "Success") {
                 UbiParkSDKConfig.setUserId(userId: createUserResult.userId)
@@ -127,8 +117,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(loginResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("Login result:" + jsonString)
-            let toast = Toast(text: "Login result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("Login result:" + jsonString, duration: 3.0)
 
             if (loginResult.result == "Success") {
                 UbiParkSDKConfig.setUserId(userId: loginResult.userId)
@@ -152,8 +141,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(detailsResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("UserDetail result:" + jsonString)
-            let toast = Toast(text: "UserDetail result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("UserDetail result:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
         }
@@ -180,8 +168,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(updateResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("Update result:" + jsonString)
-            let toast = Toast(text: "Update result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("Update result:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
         }
@@ -198,8 +185,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(statusResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("Status result:" + jsonString)
-            let toast = Toast(text: "Status result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("Status result:" + jsonString, duration: 3.0)
             
             if (statusResult.result == "Success") {
                 // Set the status of the user, so that the beacon service
@@ -224,8 +210,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(authTokenResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("AuthToken result:" + jsonString)
-            let toast = Toast(text: "AuthToken result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("AuthToken result:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
             return
@@ -237,8 +222,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(authTokenResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("AuthToken result #2:" + jsonString)
-            let toast = Toast(text: "AuthToken result #2:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast( "AuthToken result #2:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
         }
@@ -257,8 +241,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(detailsResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("CarPark Detail result:" + jsonString)
-            let toast = Toast(text: "CarPark Detail result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("CarPark Detail result:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
         }
@@ -277,8 +260,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(enterResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("CarPark Enter result:" + jsonString)
-            let toast = Toast(text: "CarPark Enter result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("CarPark Enter result:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
         }
@@ -298,8 +280,7 @@ class ViewController: UIViewController {
             let jsonData = try JSONEncoder().encode(exitResult)
             let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
             NSLog("CarPark Exit result:" + jsonString)
-            let toast = Toast(text: "CarPark Exit result:" + jsonString, duration: Delay.long)
-            toast.show()
+            self.view.makeToast("CarPark Exit result:" + jsonString, duration: 3.0)
         } catch {
             NSLog(error.localizedDescription)
         }
@@ -338,8 +319,7 @@ class ViewController: UIViewController {
                 let jsonData = try JSONEncoder().encode(beaconServiceResult)
                 let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
                 NSLog("startService result:" + jsonString)
-                let toast = Toast(text: "startService result:" + jsonString, duration: Delay.long)
-                toast.show()
+                self.view.makeToast("startService result:" + jsonString, duration: 3.0)
             } catch {
                 NSLog(error.localizedDescription)
             }
@@ -356,8 +336,7 @@ class ViewController: UIViewController {
                 let jsonData = try JSONEncoder().encode(beaconServiceResult)
                 let jsonString = String(data: jsonData, encoding: String.Encoding.utf8) ?? ""
                 NSLog("stopService result:" + jsonString)
-                let toast = Toast(text: "stopService result:" + jsonString, duration: Delay.long)
-                toast.show()
+                self.view.makeToast("stopService result:" + jsonString, duration: 3.0)
             } catch {
                 NSLog(error.localizedDescription)
             }
