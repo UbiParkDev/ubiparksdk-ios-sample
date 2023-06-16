@@ -30,105 +30,119 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		17E5507F92F0DF1DD5C3AB12E53F559F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		134D6CCF6AC3A701E58597C8F7166349 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */; };
 		23145F8B82E03363D16AE67DC7654477 /* Pods-UbiParkSDKDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D9F7B73286474FF9A008837CE3AE19 /* Pods-UbiParkSDKDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6DFA70326D4C540DC43BD455F5A4A658 /* Toast-Swift-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E41A37628F4968A16010AD80384E3E1D /* Toast-Swift-dummy.m */; };
-		8080EF5EB25EB5578908CCB71C5EEAC3 /* Pods-UbiParkSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154C2A949412A53D00FF80DC4F419D94 /* Pods-UbiParkSDKDemo-dummy.m */; };
-		87E3B15B2AA7D226CB60059610C1241A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */; };
-		8F44AF76813F97699FD2B5C2DCBCABED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		244F4A02905D8B8672286B4BCC5B7480 /* Toaster-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 05247DEC650B717826A55E40CE136A36 /* Toaster-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		255EE1EA4B407101A1B37659D01D9EC5 /* Toaster.h in Headers */ = {isa = PBXBuildFile; fileRef = BEF3771BB2EE120B4A59A0A3A9FF2A39 /* Toaster.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31F82636684655D2E9CE5E47ED123700 /* UIApplication+Load.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2E5AFC859E29F0B2B6CE1112E5D427D /* UIApplication+Load.swift */; };
+		3DF71199449E512FC4D600A5B5E5B208 /* Pods-UbiParkSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8AE184A86F0E07F9F05AA2B4EE7775 /* Pods-UbiParkSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49F044CFFA63A11EEC121B5BF1B6463B /* ToastWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9719ED3E386D39FE21FFB009A8CFEF70 /* ToastWindow.swift */; };
+		4FBB681F30753274DB4B90BB49B20D78 /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E28B57A4E904152FB3FA622917C6614D /* ToastView.swift */; };
+		5B1669A443DF76A2E4A8193D7ED3931D /* Toaster-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 332C33D58770C69D316984243E594D5A /* Toaster-dummy.m */; };
+		7BEB5DF6A9013A89225CFE379E3CF089 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */; };
+		8F44AF76813F97699FD2B5C2DCBCABED /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		9495D6DA43966022D607E6D0943C0ED4 /* ToastCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F97E3990753969093F48AF09AB68EF2 /* ToastCenter.swift */; };
 		971D9CAE8FD1CEDF7F37C4F8D08DC603 /* Pods-UbiParkSDKDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F3D040FA3ECF04564C6403E9F22D6291 /* Pods-UbiParkSDKDemoUITests-dummy.m */; };
-		A9DE6F580C9883E45E422659A0E2CC03 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
-		B65658C5B7C14F72266AE25C29E32A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */; };
+		A682196864BF5EE4588D33F8C5677E08 /* KeyboardObserver.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9AD289D11D44D63402B3EBD7C8C5FEB /* KeyboardObserver.swift */; };
+		B619BDBA36F026EC94118E2E4361BDB7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
+		B65658C5B7C14F72266AE25C29E32A55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
 		BA4D892B4E334FEAEB5084768AE1E5FA /* Pods-UbiParkSDKDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 29ECFCA013EF65416482D65805F8E697 /* Pods-UbiParkSDKDemoTests-dummy.m */; };
-		BF20C741EBB18F936CA31F2E41DC9F23 /* Toast-Swift-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A95DA5BC06B5D11787302A566DE113C /* Toast-Swift-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C182B1EC833325BBE63CF5ACD2E49510 /* Pods-UbiParkSDKDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 154C2A949412A53D00FF80DC4F419D94 /* Pods-UbiParkSDKDemo-dummy.m */; };
+		C1999693D93F4DDC7F886C0BDA1C2264 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */; };
 		C6E147915A82EE86CDECBD37239C3700 /* Pods-UbiParkSDKDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 626B87E8741E9E0C5622AF7FD30484A1 /* Pods-UbiParkSDKDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CAE29563450C7ED7B9BEFD4F8C3788CA /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B192B86B62342175CD790CC13CC2F0E /* Toast.swift */; };
-		F9E62EF55C593AD30DD9F73ECC383F42 /* Pods-UbiParkSDKDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F8AE184A86F0E07F9F05AA2B4EE7775 /* Pods-UbiParkSDKDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC4D85911918337A91079AD27B7DBF86 /* Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 613C78268CDC49229A1F2D977DE228B3 /* Toast.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		08AE56F1AC6FBA8BF6675E1EBC95E8C7 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5B7DF001D84BBC9674FE1C11342CC60;
-			remoteInfo = "Pods-UbiParkSDKDemo";
-		};
-		3FEA11C4800FCFA7140667AE8924F926 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D5B7DF001D84BBC9674FE1C11342CC60;
-			remoteInfo = "Pods-UbiParkSDKDemo";
-		};
-		6C98E70065DFAEA3674355C23264E3F6 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1B7B6C357E00A07F62CFFD4E4A79FE27;
-			remoteInfo = UbiParkSDK;
-		};
-		CA1F35D4866BA52E79ACA33540FDEA27 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B990BD87169C76A3ED3FE8A9258D91A3;
-			remoteInfo = "Toast-Swift";
-		};
-		F4CA8715D09D48765AA377A824CACDEF /* PBXContainerItemProxy */ = {
+		0E643E6EB3E1DCBF84C24FEBD551582B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 370FE6B7BD2AAF5FF298EAF84D61B7C4;
 			remoteInfo = KontaktSDK;
 		};
+		90F2BACDA994D98C54F2265C47E30003 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B7DF001D84BBC9674FE1C11342CC60;
+			remoteInfo = "Pods-UbiParkSDKDemo";
+		};
+		B528AE297DB7091087AD69C5A776DB41 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1B7B6C357E00A07F62CFFD4E4A79FE27;
+			remoteInfo = UbiParkSDK;
+		};
+		CB5AD8DCAA09A947D584C91A1EF5A534 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B90AB98A7BC6A346D671B36DB990DAC2;
+			remoteInfo = Toaster;
+		};
+		E946D71CB54C6A4DBF676EC5556DE681 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5B7DF001D84BBC9674FE1C11342CC60;
+			remoteInfo = "Pods-UbiParkSDKDemo";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		09DF12D1E2599605763398DD3613B8C2 /* Toast-Swift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toast-Swift-Info.plist"; sourceTree = "<group>"; };
+		05247DEC650B717826A55E40CE136A36 /* Toaster-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-umbrella.h"; sourceTree = "<group>"; };
+		0F97E3990753969093F48AF09AB68EF2 /* ToastCenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastCenter.swift; path = Sources/ToastCenter.swift; sourceTree = "<group>"; };
 		10CC314111D9596060223D17F61A1A9E /* Pods-UbiParkSDKDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiParkSDKDemo.release.xcconfig"; sourceTree = "<group>"; };
-		1192857A255DE183E46508F3EAE67140 /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		154C2A949412A53D00FF80DC4F419D94 /* Pods-UbiParkSDKDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UbiParkSDKDemo-dummy.m"; sourceTree = "<group>"; };
-		1682D1F0AC3E2C679F17823EF3ED35B8 /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
-		17B6085C0913A196BB284E68AB41AF26 /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
+		262EAC5E10159490BA0C067E61161B64 /* Toaster-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Toaster-Info.plist"; sourceTree = "<group>"; };
 		2630CBB2DCBC3059374851DF9844317B /* Pods-UbiParkSDKDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiParkSDKDemoUITests-Info.plist"; sourceTree = "<group>"; };
 		29ECFCA013EF65416482D65805F8E697 /* Pods-UbiParkSDKDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UbiParkSDKDemoTests-dummy.m"; sourceTree = "<group>"; };
-		2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		332C33D58770C69D316984243E594D5A /* Toaster-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toaster-dummy.m"; sourceTree = "<group>"; };
 		35E695E669CE2C128EC08341EA4B9541 /* Pods-UbiParkSDKDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UbiParkSDKDemoTests.modulemap"; sourceTree = "<group>"; };
 		3ADB490AD9220AD0A52F36965FC2C98C /* Pods-UbiParkSDKDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiParkSDKDemoTests-Info.plist"; sourceTree = "<group>"; };
-		3B192B86B62342175CD790CC13CC2F0E /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Toast/Toast.swift; sourceTree = "<group>"; };
 		3DACC80E485D976450E9D1632D18A941 /* Pods-UbiParkSDKDemoTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UbiParkSDKDemoTests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		408E2664B60FD4CBA11BCDE1629AB77B /* Pods-UbiParkSDKDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UbiParkSDKDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
-		430E659B3DCFC8E7D0BEFAA004885AD2 /* UbiParkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UbiParkSDK.debug.xcconfig; sourceTree = "<group>"; };
-		4C9992C12D3B3CB14A3A9339E9E20943 /* Toast-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.release.xcconfig"; sourceTree = "<group>"; };
+		4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4BB83A8752BA81A65289336CB14D2B4D /* UbiParkSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "UbiParkSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		50BFA5E29823C421949BA729804810A4 /* Pods-UbiParkSDKDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiParkSDKDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		50D3FE9A71A2F2BE95946C4482F3085D /* Pods-UbiParkSDKDemoUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UbiParkSDKDemoUITests"; path = Pods_UbiParkSDKDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54422A3F35758F5CC158E711625428C4 /* Toaster.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.debug.xcconfig; sourceTree = "<group>"; };
 		57131539D79CD3221CE06F56FCB2410D /* Pods-UbiParkSDKDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiParkSDKDemo-Info.plist"; sourceTree = "<group>"; };
-		5743F4F4B466662BB5719ABAB213DC7A /* Toast-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Toast-Swift.debug.xcconfig"; sourceTree = "<group>"; };
-		5F4D0F996C7F9A709A892072752A7E9F /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
+		5D55B324E79BC74C64C494DCCFFC3E2A /* UbiParkSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UbiParkSDK.debug.xcconfig; sourceTree = "<group>"; };
+		613C78268CDC49229A1F2D977DE228B3 /* Toast.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Toast.swift; path = Sources/Toast.swift; sourceTree = "<group>"; };
 		626B87E8741E9E0C5622AF7FD30484A1 /* Pods-UbiParkSDKDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UbiParkSDKDemoTests-umbrella.h"; sourceTree = "<group>"; };
-		6709AD7E3879FE0BA4016E34E7C0A060 /* UbiParkSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = UbiParkSDK.xcframework; sourceTree = "<group>"; };
+		63F4B037748EA19198CA8EB3EE9C6CFC /* Toaster.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Toaster.modulemap; sourceTree = "<group>"; };
 		6F8AE184A86F0E07F9F05AA2B4EE7775 /* Pods-UbiParkSDKDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UbiParkSDKDemo-umbrella.h"; sourceTree = "<group>"; };
 		740032B7209EAF80A13458DD087CDAD6 /* Pods-UbiParkSDKDemo */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UbiParkSDKDemo"; path = Pods_UbiParkSDKDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D9F7B73286474FF9A008837CE3AE19 /* Pods-UbiParkSDKDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-UbiParkSDKDemoUITests-umbrella.h"; sourceTree = "<group>"; };
-		7A95DA5BC06B5D11787302A566DE113C /* Toast-Swift-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-umbrella.h"; sourceTree = "<group>"; };
-		8E72EF27536ED4524908B811D0AF68EC /* Toast-Swift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toast-Swift-prefix.pch"; sourceTree = "<group>"; };
+		79DBE918CEB5172623C5FC299D0EDC5C /* Toaster.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Toaster.release.xcconfig; sourceTree = "<group>"; };
+		7B5281E67A3339B1D1A13A4DC894A3CB /* KontaktSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.debug.xcconfig; sourceTree = "<group>"; };
+		7DA5EE6746321E374FCE1F93A457768B /* Toaster-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Toaster-prefix.pch"; sourceTree = "<group>"; };
+		828E7B996BA91BD0D75340F9BDED0884 /* UbiParkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UbiParkSDK.release.xcconfig; sourceTree = "<group>"; };
+		8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		90177153553A117F173226919DAD3B6E /* UbiParkSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = UbiParkSDK.xcframework; sourceTree = "<group>"; };
 		9501FAD9FFDB43D7597691CBB2EF9B82 /* Pods-UbiParkSDKDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-UbiParkSDKDemo-frameworks.sh"; sourceTree = "<group>"; };
+		9719ED3E386D39FE21FFB009A8CFEF70 /* ToastWindow.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastWindow.swift; path = Sources/ToastWindow.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		A9AD289D11D44D63402B3EBD7C8C5FEB /* KeyboardObserver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = KeyboardObserver.swift; path = Sources/KeyboardObserver.swift; sourceTree = "<group>"; };
 		AB365D8FC62EE753C07902A96691FF70 /* Pods-UbiParkSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiParkSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		BD810337F4A305D60D9250A197AA1EF1 /* Toaster */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Toaster; path = Toaster.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BEF3771BB2EE120B4A59A0A3A9FF2A39 /* Toaster.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Toaster.h; path = Sources/Toaster.h; sourceTree = "<group>"; };
 		C275ED978BF0156544E718D83216C65F /* Pods-UbiParkSDKDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UbiParkSDKDemoUITests.modulemap"; sourceTree = "<group>"; };
 		C2B0314B321C882BE660F7C9C2F0ED7C /* Pods-UbiParkSDKDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiParkSDKDemoTests.release.xcconfig"; sourceTree = "<group>"; };
+		C595661986362B1C4A7444038BE8868F /* KontaktSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "KontaktSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		C76E259864993A2BFE302F37FC45E4E5 /* Pods-UbiParkSDKDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiParkSDKDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C843928169E66611EEDF75241CE8AA04 /* Toast-Swift.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Toast-Swift.modulemap"; sourceTree = "<group>"; };
-		CA1BC8862427A8C0484B8FDD3873B597 /* UbiParkSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = UbiParkSDK.release.xcconfig; sourceTree = "<group>"; };
-		D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Toast-Swift"; path = Toast_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E41A37628F4968A16010AD80384E3E1D /* Toast-Swift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Toast-Swift-dummy.m"; sourceTree = "<group>"; };
+		D82300FD666F109A92E73009A39ACBB9 /* KontaktSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; name = KontaktSDK.xcframework; path = Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
+		E28B57A4E904152FB3FA622917C6614D /* ToastView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToastView.swift; path = Sources/ToastView.swift; sourceTree = "<group>"; };
+		E2E5AFC859E29F0B2B6CE1112E5D427D /* UIApplication+Load.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIApplication+Load.swift"; path = "Sources/UIApplication+Load.swift"; sourceTree = "<group>"; };
 		E6AE6E81139044E7293D698BBDBDE52B /* Pods-UbiParkSDKDemoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiParkSDKDemoUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E7259248BBD0DA685734D051788AFE2A /* Pods-UbiParkSDKDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-UbiParkSDKDemo.modulemap"; sourceTree = "<group>"; };
 		E7D44346338E7F1876A38B25B7B1D87D /* Pods-UbiParkSDKDemoTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-UbiParkSDKDemoTests"; path = Pods_UbiParkSDKDemoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E95E1614D4C4AB23B14469E62D7B3830 /* KontaktSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KontaktSDK.release.xcconfig; sourceTree = "<group>"; };
 		ED339E3F741B3DA1FD82AE12E944FC77 /* Pods-UbiParkSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-UbiParkSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		F26056018B6CA458E83CCD7908E80A60 /* UbiParkSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "UbiParkSDK-xcframeworks.sh"; sourceTree = "<group>"; };
 		F3D040FA3ECF04564C6403E9F22D6291 /* Pods-UbiParkSDKDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-UbiParkSDKDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		F6210467577AE319C2645B5C803E781D /* Pods-UbiParkSDKDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-UbiParkSDKDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		FA1293CDEBCDE7A4167F4CF05834CCEF /* Pods-UbiParkSDKDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-UbiParkSDKDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
@@ -136,12 +150,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		27AE6978B7DEAB3C99D6DD07D4532395 /* Frameworks */ = {
+		36DE72BE72130187112210A3F70F06F3 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				17E5507F92F0DF1DD5C3AB12E53F559F /* Foundation.framework in Frameworks */,
-				87E3B15B2AA7D226CB60059610C1241A /* QuartzCore.framework in Frameworks */,
+				C1999693D93F4DDC7F886C0BDA1C2264 /* Foundation.framework in Frameworks */,
+				7BEB5DF6A9013A89225CFE379E3CF089 /* QuartzCore.framework in Frameworks */,
+				134D6CCF6AC3A701E58597C8F7166349 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,11 +168,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		88DEC7FD10696BA48C6109D4D014FEB2 /* Frameworks */ = {
+		BCA9B701AE03016C99F81779DCEE1143 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9DE6F580C9883E45E422659A0E2CC03 /* Foundation.framework in Frameworks */,
+				B619BDBA36F026EC94118E2E4361BDB7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -172,77 +187,72 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		03EFCED2AF031EDB91154568EC0B95B3 /* Products */ = {
+		00E23964BA6BE7171F43C0DB80A69638 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				740032B7209EAF80A13458DD087CDAD6 /* Pods-UbiParkSDKDemo */,
-				E7D44346338E7F1876A38B25B7B1D87D /* Pods-UbiParkSDKDemoTests */,
-				50D3FE9A71A2F2BE95946C4482F3085D /* Pods-UbiParkSDKDemoUITests */,
-				D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		1099A837777E80CA1335F13C0A7F58BB /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				6709AD7E3879FE0BA4016E34E7C0A060 /* UbiParkSDK.xcframework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				D325A42620E7427FB70FB046C7B7B240 /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		2690456BE1904987CE398F5BBDFBB122 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C843928169E66611EEDF75241CE8AA04 /* Toast-Swift.modulemap */,
-				E41A37628F4968A16010AD80384E3E1D /* Toast-Swift-dummy.m */,
-				09DF12D1E2599605763398DD3613B8C2 /* Toast-Swift-Info.plist */,
-				8E72EF27536ED4524908B811D0AF68EC /* Toast-Swift-prefix.pch */,
-				7A95DA5BC06B5D11787302A566DE113C /* Toast-Swift-umbrella.h */,
-				5743F4F4B466662BB5719ABAB213DC7A /* Toast-Swift.debug.xcconfig */,
-				4C9992C12D3B3CB14A3A9339E9E20943 /* Toast-Swift.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Toast-Swift";
-			sourceTree = "<group>";
-		};
-		3338476C3DDB0B971CA87FCA58599F90 /* KontaktSDK */ = {
-			isa = PBXGroup;
-			children = (
-				F161E425A1F273C9022216B52EAEABE5 /* Frameworks */,
-				E4AFD1BB1AE4504681465A95CD2BC577 /* Support Files */,
-			);
-			name = KontaktSDK;
-			path = KontaktSDK;
-			sourceTree = "<group>";
-		};
-		3394300B04E67E0DD5BACAC472E3FD4F /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				3338476C3DDB0B971CA87FCA58599F90 /* KontaktSDK */,
-				9F86DDE00C177290D048C3EC86319474 /* Toast-Swift */,
-				79C8533F2B4146BF5A87DA234C49F0DF /* UbiParkSDK */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		3DB3F6334F7874BFF0B7F38EC0E3BCFF /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F26056018B6CA458E83CCD7908E80A60 /* UbiParkSDK-xcframeworks.sh */,
-				430E659B3DCFC8E7D0BEFAA004885AD2 /* UbiParkSDK.debug.xcconfig */,
-				CA1BC8862427A8C0484B8FDD3873B597 /* UbiParkSDK.release.xcconfig */,
+				4BB83A8752BA81A65289336CB14D2B4D /* UbiParkSDK-xcframeworks.sh */,
+				5D55B324E79BC74C64C494DCCFFC3E2A /* UbiParkSDK.debug.xcconfig */,
+				828E7B996BA91BD0D75340F9BDED0884 /* UbiParkSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/UbiParkSDK";
+			sourceTree = "<group>";
+		};
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F0A778C0229E9BF1FD97896B93F3272B /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1151331DAEAE39388C3CAEFBE24D495E /* Toaster */ = {
+			isa = PBXGroup;
+			children = (
+				A9AD289D11D44D63402B3EBD7C8C5FEB /* KeyboardObserver.swift */,
+				613C78268CDC49229A1F2D977DE228B3 /* Toast.swift */,
+				0F97E3990753969093F48AF09AB68EF2 /* ToastCenter.swift */,
+				BEF3771BB2EE120B4A59A0A3A9FF2A39 /* Toaster.h */,
+				E28B57A4E904152FB3FA622917C6614D /* ToastView.swift */,
+				9719ED3E386D39FE21FFB009A8CFEF70 /* ToastWindow.swift */,
+				E2E5AFC859E29F0B2B6CE1112E5D427D /* UIApplication+Load.swift */,
+				3A0ACC2E74790E981E15D3DC699404E7 /* Support Files */,
+			);
+			name = Toaster;
+			path = Toaster;
+			sourceTree = "<group>";
+		};
+		23DD523C65776FBC82DA46AF48420209 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				90177153553A117F173226919DAD3B6E /* UbiParkSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3A0ACC2E74790E981E15D3DC699404E7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				63F4B037748EA19198CA8EB3EE9C6CFC /* Toaster.modulemap */,
+				332C33D58770C69D316984243E594D5A /* Toaster-dummy.m */,
+				262EAC5E10159490BA0C067E61161B64 /* Toaster-Info.plist */,
+				7DA5EE6746321E374FCE1F93A457768B /* Toaster-prefix.pch */,
+				05247DEC650B717826A55E40CE136A36 /* Toaster-umbrella.h */,
+				54422A3F35758F5CC158E711625428C4 /* Toaster.debug.xcconfig */,
+				79DBE918CEB5172623C5FC299D0EDC5C /* Toaster.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Toaster";
+			sourceTree = "<group>";
+		};
+		3C9F3AC7D509BBABE33B5FAA47D4611C /* KontaktSDK */ = {
+			isa = PBXGroup;
+			children = (
+				A4D6BE882EFDA03B6A06786C0BD9463D /* Frameworks */,
+				D6429D892D7E11158296EB3F0133C6F7 /* Support Files */,
+			);
+			name = KontaktSDK;
+			path = KontaktSDK;
 			sourceTree = "<group>";
 		};
 		5EC8EE0D3BDE6BFF228DDF2ED29B58A2 /* Targets Support Files */ = {
@@ -255,14 +265,25 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		79C8533F2B4146BF5A87DA234C49F0DF /* UbiParkSDK */ = {
+		678829DE3C5A1E70A69AF3EA6DE8E984 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1099A837777E80CA1335F13C0A7F58BB /* Frameworks */,
-				3DB3F6334F7874BFF0B7F38EC0E3BCFF /* Support Files */,
+				740032B7209EAF80A13458DD087CDAD6 /* Pods-UbiParkSDKDemo */,
+				E7D44346338E7F1876A38B25B7B1D87D /* Pods-UbiParkSDKDemoTests */,
+				50D3FE9A71A2F2BE95946C4482F3085D /* Pods-UbiParkSDKDemoUITests */,
+				BD810337F4A305D60D9250A197AA1EF1 /* Toaster */,
 			);
-			name = UbiParkSDK;
-			path = UbiParkSDK;
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72D5FFCB27DCE591BB153D02CF88C0AB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3C9F3AC7D509BBABE33B5FAA47D4611C /* KontaktSDK */,
+				1151331DAEAE39388C3CAEFBE24D495E /* Toaster */,
+				AC4722E9BBCF05A56E091A128CFB79E9 /* UbiParkSDK */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		85BD7345477AF64C617173D5FB51CC79 /* Pods-UbiParkSDKDemo */ = {
@@ -282,16 +303,6 @@
 			path = "Target Support Files/Pods-UbiParkSDKDemo";
 			sourceTree = "<group>";
 		};
-		9F86DDE00C177290D048C3EC86319474 /* Toast-Swift */ = {
-			isa = PBXGroup;
-			children = (
-				3B192B86B62342175CD790CC13CC2F0E /* Toast.swift */,
-				2690456BE1904987CE398F5BBDFBB122 /* Support Files */,
-			);
-			name = "Toast-Swift";
-			path = "Toast-Swift";
-			sourceTree = "<group>";
-		};
 		A1A137CC15972CEDC8FD360857899D0E /* Pods-UbiParkSDKDemoTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -308,13 +319,31 @@
 			path = "Target Support Files/Pods-UbiParkSDKDemoTests";
 			sourceTree = "<group>";
 		};
+		A4D6BE882EFDA03B6A06786C0BD9463D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D82300FD666F109A92E73009A39ACBB9 /* KontaktSDK.xcframework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC4722E9BBCF05A56E091A128CFB79E9 /* UbiParkSDK */ = {
+			isa = PBXGroup;
+			children = (
+				23DD523C65776FBC82DA46AF48420209 /* Frameworks */,
+				00E23964BA6BE7171F43C0DB80A69638 /* Support Files */,
+			);
+			name = UbiParkSDK;
+			path = UbiParkSDK;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				3394300B04E67E0DD5BACAC472E3FD4F /* Pods */,
-				03EFCED2AF031EDB91154568EC0B95B3 /* Products */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				72D5FFCB27DCE591BB153D02CF88C0AB /* Pods */,
+				678829DE3C5A1E70A69AF3EA6DE8E984 /* Products */,
 				5EC8EE0D3BDE6BFF228DDF2ED29B58A2 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -335,42 +364,35 @@
 			path = "Target Support Files/Pods-UbiParkSDKDemoUITests";
 			sourceTree = "<group>";
 		};
-		D325A42620E7427FB70FB046C7B7B240 /* iOS */ = {
+		D6429D892D7E11158296EB3F0133C6F7 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				31FE7C6ECA71C614A5A667C679B23874 /* Foundation.framework */,
-				2FEFE490E4A06D19E868B2B9014BB8BF /* QuartzCore.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		E4AFD1BB1AE4504681465A95CD2BC577 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				1192857A255DE183E46508F3EAE67140 /* KontaktSDK-xcframeworks.sh */,
-				17B6085C0913A196BB284E68AB41AF26 /* KontaktSDK.debug.xcconfig */,
-				5F4D0F996C7F9A709A892072752A7E9F /* KontaktSDK.release.xcconfig */,
+				C595661986362B1C4A7444038BE8868F /* KontaktSDK-xcframeworks.sh */,
+				7B5281E67A3339B1D1A13A4DC894A3CB /* KontaktSDK.debug.xcconfig */,
+				E95E1614D4C4AB23B14469E62D7B3830 /* KontaktSDK.release.xcconfig */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/KontaktSDK";
 			sourceTree = "<group>";
 		};
-		F161E425A1F273C9022216B52EAEABE5 /* Frameworks */ = {
+		F0A778C0229E9BF1FD97896B93F3272B /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				1682D1F0AC3E2C679F17823EF3ED35B8 /* KontaktSDK.xcframework */,
+				4B1530FBFAA1690D27A135E4CC85AA07 /* Foundation.framework */,
+				9FE46B11FEBCBB7C689EB07A5E57BD38 /* QuartzCore.framework */,
+				8CE2AD31F00D0EF9C522211BDDBF6C3C /* UIKit.framework */,
 			);
-			name = Frameworks;
+			name = iOS;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		2E2581BDDD752838DC1BB4992A0E2AAB /* Headers */ = {
+		0AD7CA03DA6A06E1FFE38EBDDCDA6834 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F9E62EF55C593AD30DD9F73ECC383F42 /* Pods-UbiParkSDKDemo-umbrella.h in Headers */,
+				3DF71199449E512FC4D600A5B5E5B208 /* Pods-UbiParkSDKDemo-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -382,11 +404,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63D019064C2255A3D74C25BDF1937802 /* Headers */ = {
+		976C98883BC407F0DF403E78275BDA48 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF20C741EBB18F936CA31F2E41DC9F23 /* Toast-Swift-umbrella.h in Headers */,
+				255EE1EA4B407101A1B37659D01D9EC5 /* Toaster.h in Headers */,
+				244F4A02905D8B8672286B4BCC5B7480 /* Toaster-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -413,7 +436,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				B2BE36BB6742323A3D261327A92DC00C /* PBXTargetDependency */,
+				3EEEBAA206740F092D482A0A28943249 /* PBXTargetDependency */,
 			);
 			name = "Pods-UbiParkSDKDemoUITests";
 			productName = Pods_UbiParkSDKDemoUITests;
@@ -432,46 +455,46 @@
 			buildRules = (
 			);
 			dependencies = (
-				AC6C56BE7078D983C6555E19A16E444E /* PBXTargetDependency */,
+				047C615C59A68824160A5604C4CA318A /* PBXTargetDependency */,
 			);
 			name = "Pods-UbiParkSDKDemoTests";
 			productName = Pods_UbiParkSDKDemoTests;
 			productReference = E7D44346338E7F1876A38B25B7B1D87D /* Pods-UbiParkSDKDemoTests */;
 			productType = "com.apple.product-type.framework";
 		};
-		B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */ = {
+		B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3393B836BCDFD5292B077E63A26DC97F /* Build configuration list for PBXNativeTarget "Toast-Swift" */;
+			buildConfigurationList = 7A4D04EABFCE7005DAC66B1C7927A799 /* Build configuration list for PBXNativeTarget "Toaster" */;
 			buildPhases = (
-				63D019064C2255A3D74C25BDF1937802 /* Headers */,
-				C576B265A93E25312929172E0AB5B460 /* Sources */,
-				27AE6978B7DEAB3C99D6DD07D4532395 /* Frameworks */,
-				39537AB4608D9B5FE694169E21AD9F19 /* Resources */,
+				976C98883BC407F0DF403E78275BDA48 /* Headers */,
+				9A28197B91FF8574DF19BEC49BB8FF3D /* Sources */,
+				36DE72BE72130187112210A3F70F06F3 /* Frameworks */,
+				71D00246BF5967380706E801E482AD53 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = "Toast-Swift";
-			productName = Toast_Swift;
-			productReference = D6043471C96F93DC41F7DD1E0D7D8B35 /* Toast-Swift */;
+			name = Toaster;
+			productName = Toaster;
+			productReference = BD810337F4A305D60D9250A197AA1EF1 /* Toaster */;
 			productType = "com.apple.product-type.framework";
 		};
 		D5B7DF001D84BBC9674FE1C11342CC60 /* Pods-UbiParkSDKDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 133B7A0314D81D987DFD7E717D044D70 /* Build configuration list for PBXNativeTarget "Pods-UbiParkSDKDemo" */;
+			buildConfigurationList = 2B7BA5CC7EE1C23E9FCBADA6A322791B /* Build configuration list for PBXNativeTarget "Pods-UbiParkSDKDemo" */;
 			buildPhases = (
-				2E2581BDDD752838DC1BB4992A0E2AAB /* Headers */,
-				B5664C64ACF3761863BA525F56EBEF14 /* Sources */,
-				88DEC7FD10696BA48C6109D4D014FEB2 /* Frameworks */,
-				DB768A07040C263B814D0455234AFA53 /* Resources */,
+				0AD7CA03DA6A06E1FFE38EBDDCDA6834 /* Headers */,
+				C49028C1BD1DA5F5BE693C70383C209A /* Sources */,
+				BCA9B701AE03016C99F81779DCEE1143 /* Frameworks */,
+				65E984BC7DA3F0F44CB8DEDBD33F170D /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D1D0614AEF557F6DD702CF6AE1ABDF52 /* PBXTargetDependency */,
-				A8D956200E9D04E511566BFD5379B232 /* PBXTargetDependency */,
-				EAE04542B67BC646EC83F77D8E69430C /* PBXTargetDependency */,
+				3BDB0A098C873ACEA063B5A382237290 /* PBXTargetDependency */,
+				B436AA7187DE17B9C76A0964775E9723 /* PBXTargetDependency */,
+				1B8935D253C295912BA48D3CF700A829 /* PBXTargetDependency */,
 			);
 			name = "Pods-UbiParkSDKDemo";
 			productName = Pods_UbiParkSDKDemo;
@@ -496,7 +519,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 03EFCED2AF031EDB91154568EC0B95B3 /* Products */;
+			productRefGroup = 678829DE3C5A1E70A69AF3EA6DE8E984 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -504,14 +527,21 @@
 				D5B7DF001D84BBC9674FE1C11342CC60 /* Pods-UbiParkSDKDemo */,
 				60ADF1FDDFBC644A8117988B76507AFE /* Pods-UbiParkSDKDemoTests */,
 				0A0B9CF4A2DEDEE713E3381DDF726DBC /* Pods-UbiParkSDKDemoUITests */,
-				B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */,
+				B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */,
 				1B7B6C357E00A07F62CFFD4E4A79FE27 /* UbiParkSDK */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		39537AB4608D9B5FE694169E21AD9F19 /* Resources */ = {
+		65E984BC7DA3F0F44CB8DEDBD33F170D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		71D00246BF5967380706E801E482AD53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -526,13 +556,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		869FB994BDA09A6A9A94131192642E3F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		DB768A07040C263B814D0455234AFA53 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -579,6 +602,20 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		9A28197B91FF8574DF19BEC49BB8FF3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A682196864BF5EE4588D33F8C5677E08 /* KeyboardObserver.swift in Sources */,
+				FC4D85911918337A91079AD27B7DBF86 /* Toast.swift in Sources */,
+				9495D6DA43966022D607E6D0943C0ED4 /* ToastCenter.swift in Sources */,
+				5B1669A443DF76A2E4A8193D7ED3931D /* Toaster-dummy.m in Sources */,
+				4FBB681F30753274DB4B90BB49B20D78 /* ToastView.swift in Sources */,
+				49F044CFFA63A11EEC121B5BF1B6463B /* ToastWindow.swift in Sources */,
+				31F82636684655D2E9CE5E47ED123700 /* UIApplication+Load.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		9CAD5C546B00235689203359E6BBEC2B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -595,62 +632,53 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B5664C64ACF3761863BA525F56EBEF14 /* Sources */ = {
+		C49028C1BD1DA5F5BE693C70383C209A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8080EF5EB25EB5578908CCB71C5EEAC3 /* Pods-UbiParkSDKDemo-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		C576B265A93E25312929172E0AB5B460 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				CAE29563450C7ED7B9BEFD4F8C3788CA /* Toast.swift in Sources */,
-				6DFA70326D4C540DC43BD455F5A4A658 /* Toast-Swift-dummy.m in Sources */,
+				C182B1EC833325BBE63CF5ACD2E49510 /* Pods-UbiParkSDKDemo-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8D956200E9D04E511566BFD5379B232 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Toast-Swift";
-			target = B990BD87169C76A3ED3FE8A9258D91A3 /* Toast-Swift */;
-			targetProxy = CA1F35D4866BA52E79ACA33540FDEA27 /* PBXContainerItemProxy */;
-		};
-		AC6C56BE7078D983C6555E19A16E444E /* PBXTargetDependency */ = {
+		047C615C59A68824160A5604C4CA318A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-UbiParkSDKDemo";
 			target = D5B7DF001D84BBC9674FE1C11342CC60 /* Pods-UbiParkSDKDemo */;
-			targetProxy = 3FEA11C4800FCFA7140667AE8924F926 /* PBXContainerItemProxy */;
+			targetProxy = 90F2BACDA994D98C54F2265C47E30003 /* PBXContainerItemProxy */;
 		};
-		B2BE36BB6742323A3D261327A92DC00C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Pods-UbiParkSDKDemo";
-			target = D5B7DF001D84BBC9674FE1C11342CC60 /* Pods-UbiParkSDKDemo */;
-			targetProxy = 08AE56F1AC6FBA8BF6675E1EBC95E8C7 /* PBXContainerItemProxy */;
-		};
-		D1D0614AEF557F6DD702CF6AE1ABDF52 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = KontaktSDK;
-			target = 370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */;
-			targetProxy = F4CA8715D09D48765AA377A824CACDEF /* PBXContainerItemProxy */;
-		};
-		EAE04542B67BC646EC83F77D8E69430C /* PBXTargetDependency */ = {
+		1B8935D253C295912BA48D3CF700A829 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = UbiParkSDK;
 			target = 1B7B6C357E00A07F62CFFD4E4A79FE27 /* UbiParkSDK */;
-			targetProxy = 6C98E70065DFAEA3674355C23264E3F6 /* PBXContainerItemProxy */;
+			targetProxy = B528AE297DB7091087AD69C5A776DB41 /* PBXContainerItemProxy */;
+		};
+		3BDB0A098C873ACEA063B5A382237290 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KontaktSDK;
+			target = 370FE6B7BD2AAF5FF298EAF84D61B7C4 /* KontaktSDK */;
+			targetProxy = 0E643E6EB3E1DCBF84C24FEBD551582B /* PBXContainerItemProxy */;
+		};
+		3EEEBAA206740F092D482A0A28943249 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-UbiParkSDKDemo";
+			target = D5B7DF001D84BBC9674FE1C11342CC60 /* Pods-UbiParkSDKDemo */;
+			targetProxy = E946D71CB54C6A4DBF676EC5556DE681 /* PBXContainerItemProxy */;
+		};
+		B436AA7187DE17B9C76A0964775E9723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Toaster;
+			target = B90AB98A7BC6A346D671B36DB990DAC2 /* Toaster */;
+			targetProxy = CB5AD8DCAA09A947D584C91A1EF5A534 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		026242844763FB335656C8E7E56F512A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F4D0F996C7F9A709A892072752A7E9F /* KontaktSDK.release.xcconfig */;
+			baseConfigurationReference = E95E1614D4C4AB23B14469E62D7B3830 /* KontaktSDK.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -665,44 +693,6 @@
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
-		};
-		2A4F8B23DDA8AF4DE1A8490217591A69 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB365D8FC62EE753C07902A96691FF70 /* Pods-UbiParkSDKDemo.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				ARCHS = "$(ARCHS_STANDARD)";
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-UbiParkSDKDemo/Pods-UbiParkSDKDemo-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-UbiParkSDKDemo/Pods-UbiParkSDKDemo.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		33B183D96553AC16981F0D4383DA0A6A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -743,7 +733,7 @@
 		};
 		362CE2278ED67A53132D5C98EDE44764 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 430E659B3DCFC8E7D0BEFAA004885AD2 /* UbiParkSDK.debug.xcconfig */;
+			baseConfigurationReference = 5D55B324E79BC74C64C494DCCFFC3E2A /* UbiParkSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -797,6 +787,45 @@
 			};
 			name = Release;
 		};
+		6432D7E21CB03D647378110F8B666FAC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 10CC314111D9596060223D17F61A1A9E /* Pods-UbiParkSDKDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ARCHS = "$(ARCHS_STANDARD)";
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-UbiParkSDKDemo/Pods-UbiParkSDKDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-UbiParkSDKDemo/Pods-UbiParkSDKDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		83145F5A4025966BA0F2050E66121638 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C2B0314B321C882BE660F7C9C2F0ED7C /* Pods-UbiParkSDKDemoTests.release.xcconfig */;
@@ -834,6 +863,41 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
+		};
+		8A22B58DC63A30483618CEE0BCA084F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54422A3F35758F5CC158E711625428C4 /* Toaster.debug.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Toaster-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
 		};
 		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -903,7 +967,7 @@
 		};
 		986E70FEC1CFC03F7471C47C3B146E9C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 17B6085C0913A196BB284E68AB41AF26 /* KontaktSDK.debug.xcconfig */;
+			baseConfigurationReference = 7B5281E67A3339B1D1A13A4DC894A3CB /* KontaktSDK.debug.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -980,64 +1044,9 @@
 			};
 			name = Release;
 		};
-		A73F494556BC0A38FEC051E52A7B9970 /* Release */ = {
+		9F8A0C6AF4538C94A2C4A9B843AF3D1C /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CA1BC8862427A8C0484B8FDD3873B597 /* UbiParkSDK.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		C857274923C00B30277895886EB9694A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4C9992C12D3B3CB14A3A9339E9E20943 /* Toast-Swift.release.xcconfig */;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD)";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = Toast_Swift;
-				PRODUCT_NAME = Toast_Swift;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		D216957E3892CBD61ADA8F00869E230F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 10CC314111D9596060223D17F61A1A9E /* Pods-UbiParkSDKDemo.release.xcconfig */;
+			baseConfigurationReference = AB365D8FC62EE753C07902A96691FF70 /* Pods-UbiParkSDKDemo.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				ARCHS = "$(ARCHS_STANDARD)";
@@ -1068,15 +1077,33 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		A73F494556BC0A38FEC051E52A7B9970 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 828E7B996BA91BD0D75340F9BDED0884 /* UbiParkSDK.release.xcconfig */;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
 			name = Release;
 		};
-		E0058AACBCF74B5FA9CC09D1AC39A7AB /* Debug */ = {
+		F7A177DDECA16A629B712BF80C9CA282 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5743F4F4B466662BB5719ABAB213DC7A /* Toast-Swift.debug.xcconfig */;
+			baseConfigurationReference = 79DBE918CEB5172623C5FC299D0EDC5C /* Toaster.release.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD)";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1087,27 +1114,28 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Toast-Swift/Toast-Swift-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Toast-Swift/Toast-Swift-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Toaster/Toaster-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Toaster/Toaster-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Toast-Swift/Toast-Swift.modulemap";
-				PRODUCT_MODULE_NAME = Toast_Swift;
-				PRODUCT_NAME = Toast_Swift;
+				MODULEMAP_FILE = "Target Support Files/Toaster/Toaster.modulemap";
+				PRODUCT_MODULE_NAME = Toaster;
+				PRODUCT_NAME = Toaster;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		F9F92EA6E4B1F0B4416C628CEAC9E3A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1158,20 +1186,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		133B7A0314D81D987DFD7E717D044D70 /* Build configuration list for PBXNativeTarget "Pods-UbiParkSDKDemo" */ = {
+		2B7BA5CC7EE1C23E9FCBADA6A322791B /* Build configuration list for PBXNativeTarget "Pods-UbiParkSDKDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2A4F8B23DDA8AF4DE1A8490217591A69 /* Debug */,
-				D216957E3892CBD61ADA8F00869E230F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3393B836BCDFD5292B077E63A26DC97F /* Build configuration list for PBXNativeTarget "Toast-Swift" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E0058AACBCF74B5FA9CC09D1AC39A7AB /* Debug */,
-				C857274923C00B30277895886EB9694A /* Release */,
+				9F8A0C6AF4538C94A2C4A9B843AF3D1C /* Debug */,
+				6432D7E21CB03D647378110F8B666FAC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1190,6 +1209,15 @@
 			buildConfigurations = (
 				33B183D96553AC16981F0D4383DA0A6A /* Debug */,
 				83145F5A4025966BA0F2050E66121638 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7A4D04EABFCE7005DAC66B1C7927A799 /* Build configuration list for PBXNativeTarget "Toaster" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A22B58DC63A30483618CEE0BCA084F9 /* Debug */,
+				F7A177DDECA16A629B712BF80C9CA282 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

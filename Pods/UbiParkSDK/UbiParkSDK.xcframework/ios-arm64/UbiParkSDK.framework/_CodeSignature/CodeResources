@@ -4,39 +4,9 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>Frameworks/KontaktSDK.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GWjVdruKLBSoNQohp5WvnykpSPU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/Info.plist</key>
-		<data>
-		W1am90apJru5hIDUPdKrvR2ecXs=
-		</data>
-		<key>Frameworks/KontaktSDK.framework/KontaktSDK</key>
-		<data>
-		4i9Kwnht3eyGfh7ZJ9bxqgRI7C4=
-		</data>
-		<key>Frameworks/KontaktSDK.framework/_CodeSignature/CodeResources</key>
-		<data>
-		SljjhrLHmmlF1zcsiQUJePV6c5A=
-		</data>
-		<key>Frameworks/KontaktSDK.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			GWjVdruKLBSoNQohp5WvnykpSPU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/UbiParkSDK-Swift.h</key>
 		<data>
-		hjAqXQUQ1nf84r1EvsJqoiF/U5Q=
+		s31u1RV3FIXGtxkclDJO2DR32nk=
 		</data>
 		<key>Headers/UbiParkSDK.h</key>
 		<data>
@@ -44,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Etn8dGvEP3cJjn0yw+eOyifGw2I=
+		Kw23yCkmSO3P4Hoazt12LHMhaYw=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		RmJsUz018CLuDESk+yWvDZ7Bh1c=
+		fsRXGy81h1aSRAczzu2EKoKRcOg=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		eTwPVR3JJ76jxWMY/eXPxthFTwM=
+		k29nxCQwONQYs59vxIJjLL2wR9U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		PQtK2DkeUr2ZzfXgy0Acbn1QxA4=
+		ZMzb3bYwplKWCNg7tkS4KVJgl4o=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		eTwPVR3JJ76jxWMY/eXPxthFTwM=
+		k29nxCQwONQYs59vxIJjLL2wR9U=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		vc2+jJpcY7iP0XCVPEpahjkgH6c=
+		0BCGrQ/TAKwp7BjFTLOGSQjOIHw=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -73,50 +43,11 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>Frameworks/KontaktSDK.framework/Base.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WHbkP/6qZxYdbz1Qn4XBcT88uAik+dC0xwzYgm2CtzE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/Info.plist</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			dtvNdoSRPDpJZVstjfTnE7BrbV3Cxcee5BA+F2JkEFo=
-			</data>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/KontaktSDK</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			8u3GGhU0eo1tqTK9kjTDiEouNR00KKlI5edPmBDIZsA=
-			</data>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/_CodeSignature/CodeResources</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			VJimchJc7p+Pyk23L6H4Xs8IJF0ytWvsVPIgRM0ygzc=
-			</data>
-		</dict>
-		<key>Frameworks/KontaktSDK.framework/en.lproj/Localizable.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			WHbkP/6qZxYdbz1Qn4XBcT88uAik+dC0xwzYgm2CtzE=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
 		<key>Headers/UbiParkSDK-Swift.h</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			0dHcYtV/9HL8yJwHGK9PKczZlHaWlNbVGILYbdmnC6s=
+			//c/9ZCrbhEp2mO2OnPhIPez+9pqZlYKavXOIltMcRc=
 			</data>
 		</dict>
 		<key>Headers/UbiParkSDK.h</key>
@@ -130,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			hxbswehyNPmvvWzjo4nGp0t1zf410GsshtyfdXiwNvM=
+			fey3GLQoFSqpEST54PoiPSVs2G8dg6GnPwsgzax8FHY=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3QGWo612wVo6plf3z/6LDm9KwitMi5xEaEKmqZQ6Iw=
+			v3LuXLBCfp69BK0FE0u6sqR4YimgucwMIE9NUxFOKtM=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RawnOBnj+c7psFumnFhNkJ3ZIDmAsOygwwYYsIxKP7w=
+			q8lba4vWhFahwYVto7IlFEFsZAHcvbgSuSofQQ8KoCs=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i3QGWo612wVo6plf3z/6LDm9KwitMi5xEaEKmqZQ6Iw=
+			v3LuXLBCfp69BK0FE0u6sqR4YimgucwMIE9NUxFOKtM=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Ppt8L/2XaogBrzKmGSHxuf2GEyf6oK+26UAKD6Ef8hU=
+			Y91DhbE8upPpTJXUczNsrFJcCtEEb04g208NoUUSTs8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

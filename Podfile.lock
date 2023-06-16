@@ -1,17 +1,17 @@
 PODS:
   - KontaktSDK (3.0.26)
-  - Toast-Swift (5.0.1)
-  - UbiParkSDK (2.0.0)
+  - Toaster (2.3.0)
+  - UbiParkSDK (2.0.3)
 
 DEPENDENCIES:
   - KontaktSDK (~> 3.0)
-  - Toast-Swift (~> 5.0.1)
+  - Toaster
   - UbiParkSDK (from `https://github.com/UbiParkDev/ubiparksdk-ios.git`)
 
 SPEC REPOS:
   trunk:
     - KontaktSDK
-    - Toast-Swift
+    - Toaster
 
 EXTERNAL SOURCES:
   UbiParkSDK:
@@ -19,14 +19,14 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UbiParkSDK:
-    :commit: 560cdb2fb4ce4ca737ec30b356ff224a5de5e7e8
+    :commit: 30566fffaeb3268dd6bbceefc1fe9232c8f4d50d
     :git: https://github.com/UbiParkDev/ubiparksdk-ios.git
 
 SPEC CHECKSUMS:
   KontaktSDK: 988dafe70f470cbacce9620a1aff310fa28129cf
-  Toast-Swift: 9b6a70f28b3bf0b96c40d46c0c4b9d6639846711
-  UbiParkSDK: 514ffda1a1858446a74b263ba6bbf83314fcb8db
+  Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
+  UbiParkSDK: f872b9ef580646b3446d4b3be9d9fbe31912fcfb
 
-PODFILE CHECKSUM: 7af6c259119990a9d814855d2db8b4b5c310266a
+PODFILE CHECKSUM: b784704eadcb27c6f3569397dfc9ea2f7011c156
 
 COCOAPODS: 1.12.0

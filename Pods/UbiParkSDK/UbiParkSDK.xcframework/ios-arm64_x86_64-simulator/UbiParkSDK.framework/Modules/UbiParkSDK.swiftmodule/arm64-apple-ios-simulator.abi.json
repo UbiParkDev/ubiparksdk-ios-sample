@@ -20202,7 +20202,10 @@
         "name": "KontaktSDK",
         "printedName": "KontaktSDK",
         "declKind": "Import",
-        "moduleName": "UbiParkSDK"
+        "moduleName": "UbiParkSDK",
+        "declAttributes": [
+          "ImplementationOnly"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -48333,12 +48336,89 @@
       "kind": "IntegerLiteral",
       "offset": 1644,
       "length": 4,
-      "value": "100"
+      "value": "-100"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
       "kind": "IntegerLiteral",
       "offset": 1735,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2409,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2491,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2771,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2851,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2949,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3047,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3218,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3293,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3379,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3480,
+      "length": 4,
+      "value": "-100"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3579,
       "length": 1,
       "value": "0"
     },
@@ -48353,6 +48433,20 @@
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeMessageResult.swift",
       "kind": "StringLiteral",
       "offset": 316,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeMessageResult.swift",
+      "kind": "StringLiteral",
+      "offset": 879,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeMessageResult.swift",
+      "kind": "StringLiteral",
+      "offset": 961,
       "length": 2,
       "value": "\"\""
     },
@@ -48389,12 +48483,40 @@
       "kind": "IntegerLiteral",
       "offset": 516,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "StringLiteral",
       "offset": 638,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1189,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1278,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1357,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1463,
       "length": 2,
       "value": "\"\""
     },
@@ -48417,12 +48539,40 @@
       "kind": "IntegerLiteral",
       "offset": 969,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
       "offset": 1003,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1630,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1719,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1798,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1904,
       "length": 2,
       "value": "\"\""
     },
@@ -48504,6 +48654,83 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2093,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2182,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2272,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2350,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2436,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2520,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2602,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2794,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2888,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2994,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3088,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneModel.swift",
       "kind": "IntegerLiteral",
       "offset": 261,
@@ -48539,6 +48766,27 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2511,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2776,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3293,
+      "length": 1,
+      "value": "3"
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "StringLiteral",
       "offset": 308,
@@ -48571,12 +48819,54 @@
       "kind": "IntegerLiteral",
       "offset": 632,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "BooleanLiteral",
       "offset": 716,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1374,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1463,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1548,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1637,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1734,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1822,
       "length": 5,
       "value": "false"
     },
@@ -48599,12 +48889,54 @@
       "kind": "IntegerLiteral",
       "offset": 468,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
       "kind": "StringLiteral",
       "offset": 556,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1123,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1212,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1291,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1397,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconPayloadResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1213,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconPayloadResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1302,
       "length": 2,
       "value": "\"\""
     },
@@ -48619,6 +48951,34 @@
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
       "kind": "StringLiteral",
       "offset": 392,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
+      "kind": "StringLiteral",
+      "offset": 944,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1033,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/DateFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1290,
+      "length": 41,
+      "value": "\"Cannot decode date string \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/DateFormatter.swift",
+      "kind": "StringLiteral",
+      "offset": 1330,
       "length": 2,
       "value": "\"\""
     },
@@ -48912,63 +49272,1876 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "BooleanLiteral",
-      "offset": 2424,
+      "offset": 2445,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "StringLiteral",
-      "offset": 2500,
+      "offset": 2521,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "IntegerLiteral",
-      "offset": 2932,
+      "offset": 2953,
       "length": 1,
       "value": "5"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3094,
+      "offset": 3115,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3139,
+      "offset": 3160,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3381,
+      "offset": 3402,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "BooleanLiteral",
-      "offset": 3955,
+      "offset": 3976,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "BooleanLiteral",
-      "offset": 4009,
+      "offset": 4030,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
       "kind": "StringLiteral",
-      "offset": 55743,
+      "offset": 4208,
+      "length": 23,
+      "value": "\"BeaconService::init()\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4694,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4820,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4905,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 4930,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 5196,
+      "length": 22,
+      "value": "\"BeaconService::timer\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 5408,
+      "length": 32,
+      "value": "\"BeaconService::timer: Disabled\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 5661,
+      "length": 59,
+      "value": "\"BeaconService::timer: Ignored - beaconService not started\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 5938,
+      "length": 47,
+      "value": "\"BeaconService::timer: Ignored - in background\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 6497,
+      "length": 31,
+      "value": "\"BeaconService::timer: skipped\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 6866,
+      "length": 36,
+      "value": "\"BeaconService::timer: out of range\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7015,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 7510,
+      "length": 34,
+      "value": "\"BeaconService::setTimerEnabled: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 8057,
+      "length": 33,
+      "value": "\"BeaconService::getClosestLane: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 8164,
+      "length": 36,
+      "value": "\"BeaconService::getClosestLane: nil\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 8472,
+      "length": 33,
+      "value": "\"BeaconService::setClosestLane: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 8582,
+      "length": 36,
+      "value": "\"BeaconService::setClosestLane: nil\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 8856,
+      "length": 55,
+      "value": "\"BeaconService::setClosestLane: new closest lane is - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 8996,
+      "length": 56,
+      "value": "\"BeaconService::setClosestLane: new closest lane is nil\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 9374,
+      "length": 58,
+      "value": "\"BeaconService::setClosestLane: closest lane unchanged - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 9517,
+      "length": 61,
+      "value": "\"BeaconService::setClosestLane: closest lane unchanged - nil\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 9941,
+      "length": 33,
+      "value": "\"BeaconService::getCarParkName: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 10189,
+      "length": 33,
+      "value": "\"BeaconService::setCarParkName: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 10402,
+      "length": 44,
+      "value": "\"BeaconService::setCarParkName: new name - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 10689,
+      "length": 43,
+      "value": "\"BeaconService::setCarParkName: unchanged \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 11070,
+      "length": 31,
+      "value": "\"BeaconService::getCarParkId: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 11315,
+      "length": 31,
+      "value": "\"BeaconService::setCarParkId: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 11528,
+      "length": 40,
+      "value": "\"BeaconService::setCarParkId: new ID - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 11809,
+      "length": 41,
+      "value": "\"BeaconService::setCarParkId: unchanged \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 12083,
+      "length": 57,
+      "value": "\"BeaconService::onBeaconsChanged - raise events disabled\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 12302,
+      "length": 33,
+      "value": "\"BeaconService::onBeaconsChanged\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 12576,
+      "length": 55,
+      "value": "\"BeaconService::onLanesChanged - raise events disabled\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 12793,
+      "length": 31,
+      "value": "\"BeaconService::onLanesChanged\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 13067,
+      "length": 61,
+      "value": "\"BeaconService::onLaneBeaconsChanged - raise events disabled\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 13290,
+      "length": 37,
+      "value": "\"BeaconService::onLaneBeaconsChanged\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 13582,
+      "length": 61,
+      "value": "\"BeaconService::onClosestLaneChanged - raise events disabled\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 13857,
+      "length": 54,
+      "value": "\"BeaconService::onClosestLaneChanged: Closest lane = \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 13986,
+      "length": 54,
+      "value": "\"BeaconService::onClosestLaneChanged: No Closest Lane\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 14266,
+      "length": 24,
+      "value": "\"BeaconService::reset: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14612,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14705,
+      "length": 2,
+      "value": "-2"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14775,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 14858,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 15496,
+      "length": 30,
+      "value": "\"BeaconService::initService()\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 16414,
+      "length": 29,
+      "value": "\"BeaconService::startService\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 16637,
+      "length": 33,
+      "value": "\"Starting BeaconService version \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 16775,
+      "length": 34,
+      "value": "\"MaCldYHchYOtlGCdaOQODZplffNmSKRa\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 16885,
+      "length": 38,
+      "value": "\"7134D0B8-49DF-487B-B2A5-0ED7CAAB2818\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 17013,
+      "length": 8,
+      "value": "\"region\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17214,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 17243,
+      "length": 38,
+      "value": "\"BeaconService: startService finished\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 19066,
+      "length": 28,
+      "value": "\"BeaconService::stopService\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19646,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 19688,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 19961,
+      "length": 29,
+      "value": "\"BeaconService::onBackground\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20036,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20067,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 20380,
+      "length": 29,
+      "value": "\"BeaconService::onForeground\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20455,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 20487,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 21247,
+      "length": 24,
+      "value": "\"BeaconService::onEnter\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 21597,
+      "length": 23,
+      "value": "\"BeaconService::onExit\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 21837,
+      "length": 38,
+      "value": "\"BeaconService::updateRangedBeacons: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 21990,
+      "length": 38,
+      "value": "\"BeaconService::updateRangedBeacons: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 22054,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 22088,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 22114,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 22348,
+      "length": 95,
+      "value": "\"BeaconService::updateRangedBeacons: skipping as currently ranging beacons from previous event\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 22542,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 22565,
+      "length": 53,
+      "value": "\"WARNING: No user logged in - don't scan for beacons\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22738,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22787,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 22895,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 23003,
+      "length": 47,
+      "value": "\"BeaconService::updateRangedBeacons: completed\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 23181,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 23340,
+      "length": 32,
+      "value": "\"BeaconService::updateBeacons: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 23398,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 23432,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 23458,
+      "length": 4,
+      "value": "\", \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23620,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 23771,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23926,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 24330,
+      "length": 18,
+      "value": "\"Found car park: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 24365,
+      "length": 4,
+      "value": "\" (\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 24392,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 24859,
+      "length": 51,
+      "value": "\"BeaconService::updateBeacons: processed beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 25148,
+      "length": 53,
+      "value": "\"BeaconService::updateBeacons: already discovered - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 25417,
+      "length": 50,
+      "value": "\"BeaconService::updateBeacons: updating beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 25673,
+      "length": 49,
+      "value": "\"BeaconService::updateBeacons: beacon updated - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 25787,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 26025,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 26330,
+      "length": 51,
+      "value": "\"BeaconService::updateBeacons: relevant lane is - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 26404,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 26440,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 26650,
+      "length": 48,
+      "value": "\"BeaconService::updateBeacons: no relevant lane\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 26877,
+      "length": 55,
+      "value": "\"BeaconService::updateBeacons: setting no closest lane\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 27358,
+      "length": 55,
+      "value": "\"BeaconService::updateBeacons: firing onBeaconsChanged\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 27732,
+      "length": 58,
+      "value": "\"BeaconService::updateBeacon: updating existing beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 28002,
+      "length": 51,
+      "value": "\"BeaconService::updateBeacon: adding new beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28149,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 28322,
+      "length": 36,
+      "value": "\"BeaconService::hasBeenDiscovered: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 28545,
+      "length": 55,
+      "value": "\"BeaconService::hasBeenDiscovered: already discovered \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 28660,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 29011,
+      "length": 72,
+      "value": "\"BeaconService::hasBeenDiscovered: already discovered for another lane \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 29098,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29208,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 29380,
+      "length": 59,
+      "value": "\"BeaconService::hasBeenDiscovered: not already discovered \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 29487,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 29682,
+      "length": 36,
+      "value": "\"BeaconService::getCarPark: laneId=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 29993,
+      "length": 38,
+      "value": "\"BeaconService::getCarPark: laneId - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 30051,
+      "length": 18,
+      "value": "\" is in car park \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 30094,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 30128,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 30357,
+      "length": 60,
+      "value": "\"BeaconService::getCarPark: no car park found for laneId - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 30639,
+      "length": 35,
+      "value": "\"BeaconService::getLane: beaconId=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31020,
+      "length": 37,
+      "value": "\"BeaconService::getLane: beaconID - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31071,
+      "length": 14,
+      "value": "\" is in lane \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31100,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31128,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31388,
+      "length": 55,
+      "value": "\"BeaconService::getLane: no lane found for beaconId - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31651,
+      "length": 34,
+      "value": "\"BeaconService::getRelevantLane()\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 31767,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 31883,
+      "length": 51,
+      "value": "\"BeaconService::getRelevantLane: UserStatus is nil\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32113,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 32297,
+      "length": 54,
+      "value": "\"BeaconService::getRelevantLane: processing beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 32372,
+      "length": 9,
+      "value": "\", rssi=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 32464,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 32579,
+      "length": 52,
+      "value": "\"BeaconService::getRelevantLane: skipping beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 32652,
+      "length": 9,
+      "value": "\", rssi=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 32954,
+      "length": 62,
+      "value": "\"BeaconService::getRelevantLane: lane not found for beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 33305,
+      "length": 66,
+      "value": "\"BeaconService::getRelevantLane: car park not found for beacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 33629,
+      "length": 56,
+      "value": "\"BeaconService::getRelevantLane: user is in car park - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 33713,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 33751,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 33975,
+      "length": 64,
+      "value": "\"BeaconService::getRelevantLane: user is in another car park - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 34067,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 34105,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 34438,
+      "length": 65,
+      "value": "\"BeaconService::getRelevantLane: lane is not of acceptable type \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 34850,
+      "length": 47,
+      "value": "\"BeaconService::getRelevantLane: new car park \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 35363,
+      "length": 65,
+      "value": "\"BeaconService::getRelevantLane: setting new car park details - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 36145,
+      "length": 86,
+      "value": "\"BeaconService::getRelevantLane: don't change car park, seconds since last change =  \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 36430,
+      "length": 53,
+      "value": "\"BeaconService::getRelevantLane: relevant lane is - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 36498,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 36526,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 36696,
+      "length": 50,
+      "value": "\"BeaconService::getRelevantLane: No relevant lane\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 36962,
+      "length": 40,
+      "value": "\"BeaconService::updateLanes: laneModel=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 37022,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 37055,
+      "length": 9,
+      "value": "\") type=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 37138,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 37309,
+      "length": 73,
+      "value": "\"BeaconService::updateLanes: laneModel has no cark park assigned!!!!!!!!\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37772,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37779,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 37786,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 38049,
+      "length": 46,
+      "value": "\"BeaconService::updateLanes: removing lane - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 38119,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 38156,
+      "length": 9,
+      "value": "\") type=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38246,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38413,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 38715,
+      "length": 44,
+      "value": "\"BeaconService::updateLanes: adding lane - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 38774,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 38802,
+      "length": 9,
+      "value": "\") type=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 38924,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 39012,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39267,
+      "length": 48,
+      "value": "\"BeaconService::updateLanes: processing lane - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39330,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39358,
+      "length": 9,
+      "value": "\") type=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39395,
+      "length": 12,
+      "value": "\", groupId=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39438,
+      "length": 14,
+      "value": "\", sortOrder=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39667,
+      "length": 54,
+      "value": "\"BeaconService::updateLanes: processing laneBeacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39746,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 39786,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 40039,
+      "length": 52,
+      "value": "\"BeaconService::updateLanes: updating laneBeacon - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 40116,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 40156,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 40848,
+      "length": 67,
+      "value": "\"BeaconService::updateLanes: beacon not found for laneBeacon!!! - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 40940,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 40980,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41145,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41201,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 41615,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 41763,
+      "length": 59,
+      "value": "\"BeaconService::updateLanes: calculated closest lane is - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 41844,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 41879,
+      "length": 6,
+      "value": "\") - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 42296,
+      "length": 54,
+      "value": "\"BeaconService::updateLanes: lane count updated from \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 42377,
+      "length": 6,
+      "value": "\" to \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 42453,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 42604,
+      "length": 58,
+      "value": "\"BeaconService::updateLanes: no closest found - removeAll\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 42745,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43201,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43237,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43475,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 43515,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 43765,
+      "length": 58,
+      "value": "\"BeaconService::updateLanes: potential closest lane found\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 44096,
+      "length": 62,
+      "value": "\"BeaconService::updateLanes: currently no closest lane is set\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 44414,
+      "length": 44,
+      "value": "\"BeaconService::updateLanes: detectionSecs=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 44485,
+      "length": 21,
+      "value": "\", minDetectionSecs=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 44796,
+      "length": 47,
+      "value": "\"BeaconService::updateLanes: maxDetectionSecs=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 44888,
+      "length": 12,
+      "value": "\", minRssi=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 45431,
+      "length": 53,
+      "value": "\"BeaconService::updateLanes: set new closest lane - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 45511,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 45636,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 45812,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 45984,
+      "length": 62,
+      "value": "\"BeaconService::updateLanes: not min RSSI or maxDetectionSecs\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 46260,
+      "length": 50,
+      "value": "\"BeaconService::updateLanes: not minDetectionSecs\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 46557,
+      "length": 49,
+      "value": "\"BeaconService::updateLanes: new closest lane = \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 46712,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 46864,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 46920,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 47103,
+      "length": 45,
+      "value": "\"BeaconService::updateLanes: no closest lane\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 47292,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 47836,
+      "length": 42,
+      "value": "\"BeaconService::setAverageRSSI laneModel=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 47898,
+      "length": 3,
+      "value": "\"(\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 47931,
+      "length": 3,
+      "value": "\")\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 47987,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48021,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48096,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48349,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 48453,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 48764,
+      "length": 40,
+      "value": "\"BeaconService::setAverageRSSI average=\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 48870,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 49004,
+      "length": 57,
+      "value": "\"BeaconService::setAverageRSSI average rssi unchanged - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49136,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 49169,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 49287,
+      "length": 65,
+      "value": "\"BeaconService::setAverageRSSI average = 0 - no beacons detected\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 49401,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 49520,
+      "length": 66,
+      "value": "\"BeaconService::setAverageRSSI average rssi unchanged - no update\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 49623,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 49805,
+      "length": 41,
+      "value": "\"BeaconService::getAcceptableLaneTypes()\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 49977,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 50187,
+      "length": 75,
+      "value": "\"BeaconService::getAcceptableLaneTypes - userStatus in car park and nested\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50448,
+      "length": 1,
+      "value": "5"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50513,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 50703,
+      "length": 64,
+      "value": "\"BeaconService::getAcceptableLaneTypes - userStatus in car park\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 50964,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51022,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51088,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 51276,
+      "length": 68,
+      "value": "\"BeaconService::getAcceptableLaneTypes - userStatus not in car park\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51408,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 51463,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 51618,
+      "length": 69,
+      "value": "\"BeaconService::getAcceptableLaneTypes - userStatus is nil!!!!!!!!!!\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 51827,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 51928,
+      "length": 3,
+      "value": "\",\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 51964,
+      "length": 68,
+      "value": "\"BeaconService::getAcceptableLaneTypes - acceptable lane types are:\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 52757,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 52782,
+      "length": 31,
+      "value": "\"BeaconService::setUserStatus:\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 52964,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53018,
+      "length": 4,
+      "value": "1000"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 53054,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "BooleanLiteral",
+      "offset": 53085,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "IntegerLiteral",
+      "offset": 53217,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 53324,
+      "length": 58,
+      "value": "\"BeaconService::getUserStatus: No user logged in!!!!!!!!!\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 53644,
+      "length": 59,
+      "value": "\"BeaconService::getUserStatus: getting user status via API\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 53820,
+      "length": 9,
+      "value": "\"Success\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 53943,
+      "length": 75,
+      "value": "\"BeaconService::getUserStatus: Failed to get userStatus from API !!!!!!!!!\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 54237,
+      "length": 54,
+      "value": "\"BeaconService::getUserStatus: setting new userStatus\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 54619,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 54644,
+      "length": 52,
+      "value": "\"BeaconService::setUserStatus: userStatus is now - \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 56619,
+      "length": 40,
+      "value": "\"Ranged beacons count: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 56658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Services\/BeaconService.swift",
+      "kind": "StringLiteral",
+      "offset": 55764,
       "length": 24,
       "value": "\"UbiParkSDK.BeaconManagerDelegateImp\""
     },
@@ -49005,7 +51178,7 @@
       "kind": "IntegerLiteral",
       "offset": 650,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
@@ -49120,6 +51293,111 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3135,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3224,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3314,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3408,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3503,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3587,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3672,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4195,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4289,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4395,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4489,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4658,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4748,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4831,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 5094,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserRequest.swift",
       "kind": "StringLiteral",
       "offset": 1594,
@@ -49169,6 +51447,27 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1049,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1138,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1228,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
       "kind": "StringLiteral",
       "offset": 296,
@@ -49179,6 +51478,20 @@
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
       "kind": "StringLiteral",
       "offset": 388,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1237,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1326,
       "length": 2,
       "value": "\"\""
     },
@@ -49232,6 +51545,55 @@
       "value": "0"
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1185,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1339,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1833,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4151,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4185,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4481,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconModel.swift",
+      "kind": "StringLiteral",
+      "offset": 4577,
+      "length": 3,
+      "value": "\":\""
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeLaneInfoResult.swift",
       "kind": "IntegerLiteral",
       "offset": 295,
@@ -49251,6 +51613,1084 @@
       "offset": 542,
       "length": 1,
       "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeLaneInfoResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1188,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeLaneInfoResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1274,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeLaneInfoResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1357,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1668,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 1751,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2255,
+      "length": 22,
+      "value": "\"\/v4.0\/carpark\/detail\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2443,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2475,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2515,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2556,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2596,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2719,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2853,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3500,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4167,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4217,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 5816,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 5897,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6390,
+      "length": 21,
+      "value": "\"\/v4.0\/carpark\/enter\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6577,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6609,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6649,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6690,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6730,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6851,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6983,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7628,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 8100,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 8148,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 9706,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 9786,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10270,
+      "length": 20,
+      "value": "\"\/v4.0\/carpark\/exit\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10456,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10488,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10528,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10569,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10609,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10729,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10860,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11504,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 12369,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 12416,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 13999,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14081,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14613,
+      "length": 28,
+      "value": "\"\/v4.0\/carpark\/notification\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14807,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14839,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14879,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14920,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14960,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 15082,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 15215,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15861,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 16339,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 16388,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 17402,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18067,
+      "length": 29,
+      "value": "\"\/v4.0\/carpark\/beaconpayload\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18262,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18294,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18334,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18375,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18415,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18544,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18684,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19337,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 19857,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 19913,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2031,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2111,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2581,
+      "length": 19,
+      "value": "\"\/v4.0\/user\/create\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2766,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2798,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2838,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2879,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2919,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 3039,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 3170,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3814,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4280,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 4327,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6179,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6265,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6788,
+      "length": 23,
+      "value": "\"\/v4.0\/user\/createuser\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6977,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 7009,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 7049,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 7090,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 7130,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 7757,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 8259,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 8312,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 9610,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 9692,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10201,
+      "length": 19,
+      "value": "\"\/v4.0\/user\/detail\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10386,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10418,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10458,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10499,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10539,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10661,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10794,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 11440,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 11918,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 11967,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 13683,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 13765,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14262,
+      "length": 19,
+      "value": "\"\/v4.0\/user\/update\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14447,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14479,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14519,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14560,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14600,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14722,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14855,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 15501,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 15979,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 16028,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 17446,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 17527,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18686,
+      "length": 18,
+      "value": "\"\/v4.0\/user\/login\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18870,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18902,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18942,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18983,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 19023,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 19144,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 19276,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 19921,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 20479,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 20527,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 22184,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 22269,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 22806,
+      "length": 22,
+      "value": "\"\/v4.0\/user\/authtoken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 22994,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23026,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23066,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23107,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23147,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 23773,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24269,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 24321,
+      "length": 22,
+      "value": "\"Http Status failed: \""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25517,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 25599,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26097,
+      "length": 19,
+      "value": "\"\/v4.0\/user\/status\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26282,
+      "length": 6,
+      "value": "\"POST\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26314,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26354,
+      "length": 14,
+      "value": "\"Content-Type\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26395,
+      "length": 18,
+      "value": "\"application\/json\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26435,
+      "length": 8,
+      "value": "\"Accept\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26557,
+      "length": 8,
+      "value": "\"UserID\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26690,
+      "length": 21,
+      "value": "\"AuthenticationToken\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "IntegerLiteral",
+      "offset": 27336,
+      "length": 3,
+      "value": "200"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 28305,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 28354,
+      "length": 22,
+      "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/UbiParkSDKConfig.swift",
@@ -49362,7 +52802,7 @@
       "kind": "StringLiteral",
       "offset": 952,
       "length": 7,
-      "value": "\"2.0.0\""
+      "value": "\"2.0.3\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/UbiParkSDKConfig.swift",
@@ -49397,7 +52837,7 @@
       "kind": "IntegerLiteral",
       "offset": 1360,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/UbiParkSDKConfig.swift",
@@ -49491,6 +52931,20 @@
       "value": "true"
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/UbiParkSDKConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6324,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/UbiParkSDKConfig.swift",
+      "kind": "StringLiteral",
+      "offset": 6348,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
       "kind": "StringLiteral",
       "offset": 289,
@@ -49508,6 +52962,27 @@
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
       "kind": "BooleanLiteral",
       "offset": 461,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1215,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1304,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1392,
       "length": 5,
       "value": "false"
     },
@@ -49561,6 +53036,20 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeDetailResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1020,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeDetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1110,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "StringLiteral",
       "offset": 291,
@@ -49579,7 +53068,7 @@
       "kind": "IntegerLiteral",
       "offset": 489,
       "length": 2,
-      "value": "1"
+      "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
@@ -49596,6 +53085,41 @@
       "value": "false"
     },
     {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1289,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1378,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1457,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1563,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1657,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneBeaconResult.swift",
       "kind": "IntegerLiteral",
       "offset": 260,
@@ -49606,6 +53130,20 @@
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneBeaconResult.swift",
       "kind": "StringLiteral",
       "offset": 331,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneBeaconResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 909,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LaneBeaconResult.swift",
+      "kind": "StringLiteral",
+      "offset": 992,
       "length": 2,
       "value": "\"\""
     },

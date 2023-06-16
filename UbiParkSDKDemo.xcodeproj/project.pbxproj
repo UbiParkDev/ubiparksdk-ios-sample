@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		842A25E12A3C5D250079DD79 /* KontaktSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 842A25E02A3C5D250079DD79 /* KontaktSDK.xcframework */; };
 		84BA33C826132E2D00DEF725 /* Pods_UbiParkSDKDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B7894AA6B108A8A01E2DA0C /* Pods_UbiParkSDKDemo.framework */; };
 		84F448A225AB29BD00E84853 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F448A125AB29BD00E84853 /* AppDelegate.swift */; };
 		84F448A425AB29BD00E84853 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F448A325AB29BD00E84853 /* SceneDelegate.swift */; };
@@ -40,6 +41,7 @@
 		193A03BF731DB4A38F873443 /* Pods-UbiParkSDKDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UbiParkSDKDemo.debug.xcconfig"; path = "Target Support Files/Pods-UbiParkSDKDemo/Pods-UbiParkSDKDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		1D10558C5431C685C38ADB12 /* Pods-UbiParkSDKDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UbiParkSDKDemoTests.debug.xcconfig"; path = "Target Support Files/Pods-UbiParkSDKDemoTests/Pods-UbiParkSDKDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		7F96BFE8D6534C619471C6A6 /* Pods_UbiParkSDKDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UbiParkSDKDemoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		842A25E02A3C5D250079DD79 /* KontaktSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = KontaktSDK.xcframework; path = Pods/KontaktSDK/Cocoapods/KontaktSDK/iOS/KontaktSDK.xcframework; sourceTree = "<group>"; };
 		84F4489E25AB29BD00E84853 /* UbiParkSDKDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UbiParkSDKDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F448A125AB29BD00E84853 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84F448A325AB29BD00E84853 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				842A25E12A3C5D250079DD79 /* KontaktSDK.xcframework in Frameworks */,
 				84BA33C826132E2D00DEF725 /* Pods_UbiParkSDKDemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -122,6 +125,7 @@
 		84F448D425AB2BDE00E84853 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				842A25E02A3C5D250079DD79 /* KontaktSDK.xcframework */,
 				A72F87AF19E14251D7055888 /* Pods_UbiParkSDKDemoTests.framework */,
 				7F96BFE8D6534C619471C6A6 /* Pods_UbiParkSDKDemoUITests.framework */,
 				8B7894AA6B108A8A01E2DA0C /* Pods_UbiParkSDKDemo.framework */,

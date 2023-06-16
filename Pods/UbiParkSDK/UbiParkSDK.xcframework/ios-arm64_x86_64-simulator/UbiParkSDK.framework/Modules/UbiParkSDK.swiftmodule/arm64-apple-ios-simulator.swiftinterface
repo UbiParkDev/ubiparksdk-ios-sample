@@ -1,10 +1,9 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8.1 (swiftlang-5.8.0.124.5 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UbiParkSDK
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import CoreLocation
 import Foundation
-import KontaktSDK
 import Swift
 import UIKit
 @_exported import UbiParkSDK
@@ -27,18 +26,18 @@ public class LaneResult : Swift.Codable {
   public var laneSensitivity: Swift.Int64
   public var laneBeacons: [UbiParkSDK.LaneBeaconResult]
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public static func toModel(laneResult: UbiParkSDK.LaneResult) -> UbiParkSDK.LaneModel
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class NoticeMessageResult : Swift.Codable {
   public var title: Swift.String
   public var message: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class LoginRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -64,8 +63,8 @@ public class LoginRequest : Swift.Codable {
   public var appleIdAccessToken: Swift.String?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class UserResult : Swift.Codable {
   public var result: Swift.String
@@ -73,9 +72,9 @@ public class UserResult : Swift.Codable {
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class AuthTokenResult : Swift.Codable {
   public var result: Swift.String
@@ -83,9 +82,9 @@ public class AuthTokenResult : Swift.Codable {
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
   public init(result: Swift.String = "", message: Swift.String = "", userId: Swift.Int64 = -1, authenticationToken: Swift.String = "")
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class DetailResult : Swift.Codable {
   public var result: Swift.String
@@ -103,9 +102,9 @@ public class DetailResult : Swift.Codable {
   public var homeCarParkLatitude: Swift.Double?
   public var homeCarParkLongitude: Swift.Double?
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class LaneModel : Swift.Equatable {
   public var laneId: Swift.Int64
@@ -143,10 +142,10 @@ public class DetailsResult : Swift.Codable {
   public var homeCarPark: Swift.Bool
   public var lanes: [UbiParkSDK.LaneResult]
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public static func toModel(detailsResult: UbiParkSDK.DetailsResult) -> UbiParkSDK.CarParkModel
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class NoticeRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -169,8 +168,8 @@ public class NoticeRequest : Swift.Codable {
   public var beacons: [UbiParkSDK.NoticeBeaconRequest]
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class CreateUserResult : Swift.Codable {
   public var result: Swift.String
@@ -178,17 +177,17 @@ public class CreateUserResult : Swift.Codable {
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class BeaconPayloadResult : Swift.Codable {
   public var result: Swift.String?
   public var message: Swift.String?
   public init(result: Swift.String? = nil, message: Swift.String? = nil)
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class DetailsRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -212,16 +211,16 @@ public class DetailsRequest : Swift.Codable {
   public var carParkID: Swift.Int64?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class UpdateResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class UserRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -250,16 +249,16 @@ public class UserRequest : Swift.Codable {
   public var appleIdAccessToken: Swift.String
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class NoticeBeaconRequest : Swift.Codable {
   public var beaconId: Swift.String
   public var rssi: Swift.Double
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class BeaconPayloadItem : Swift.Codable {
   public var laneID: Swift.Int64
@@ -269,8 +268,8 @@ public class BeaconPayloadItem : Swift.Codable {
   public var details: [UbiParkSDK.BeaconPayloadDetail]
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class LaneBeaconModel {
   public var laneBeaconId: Swift.Int64
@@ -298,8 +297,8 @@ public class BeaconPayloadDetail : Swift.Codable {
   public var measuredPowerAt1Meter: Swift.Int64
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public protocol BeaconServiceDelegate {
   func carParkNameChanged(_ carParkName: Swift.String)
@@ -311,11 +310,11 @@ public protocol BeaconServiceDelegate {
 }
 @_hasMissingDesignatedInitializers public class BeaconServiceResult : Swift.Codable {
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class BeaconService {
-  public var delegate: UbiParkSDK.BeaconServiceDelegate?
+  public var delegate: (any UbiParkSDK.BeaconServiceDelegate)?
   public init()
   public func setTimerEnabled(enabled: Swift.Bool)
   public func getClosestLane() -> UbiParkSDK.LaneModel?
@@ -367,9 +366,9 @@ public class StatusResult : Swift.Codable {
   public var amount: Swift.Double?
   public var reservedBay: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class CreateUserRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -395,17 +394,17 @@ public class CreateUserRequest : Swift.Codable {
   public var phoneNo: Swift.String
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class EnterResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
   public var reservedBay: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class DetailRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -427,8 +426,8 @@ public class DetailRequest : Swift.Codable {
   public var deviceType: Swift.String?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class ExitResult : Swift.Codable {
   public var result: Swift.String
@@ -437,9 +436,9 @@ public class ExitResult : Swift.Codable {
   public var secondsInCarPark: Swift.Int64?
   public var amount: Swift.Double?
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class StatusRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -461,8 +460,8 @@ public class StatusRequest : Swift.Codable {
   public var deviceType: Swift.String?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class BeaconModel : Swift.Codable {
   public var beaconID: Swift.String
@@ -477,8 +476,8 @@ public class BeaconModel : Swift.Codable {
   public func update(beaconModel: UbiParkSDK.BeaconModel) -> Swift.Bool
   public static func toModel(beacon: CoreLocation.CLBeacon) -> UbiParkSDK.BeaconModel
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public struct NoticeLaneInfoResult : Swift.Codable {
   public var laneId: Swift.Int64
@@ -486,49 +485,49 @@ public struct NoticeLaneInfoResult : Swift.Codable {
   public var laneType: Swift.Int64
   public var beaconIds: [Swift.String]
   public init()
-  public init(from decoder: Swift.Decoder) throws
-  public func encode(to encoder: Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 @_hasMissingDesignatedInitializers public class CarParkAPI {
   public static func detail(beaconID: Swift.String?, carParkID: Swift.Int64?) -> UbiParkSDK.DetailsResult
   public static func detail(detailsRequest: UbiParkSDK.DetailsRequest) -> UbiParkSDK.DetailsResult
-  public static func detail(detailsRequest: UbiParkSDK.DetailsRequest, completionBlock: @escaping (UbiParkSDK.DetailsResult?, Swift.Error?) -> Swift.Void)
+  public static func detail(detailsRequest: UbiParkSDK.DetailsRequest, completionBlock: @escaping (UbiParkSDK.DetailsResult?, (any Swift.Error)?) -> Swift.Void)
   public static func enter(laneId: Swift.Int64, calculatedLaneId: Swift.Int64?) -> UbiParkSDK.EnterResult
   public static func enter(enterRequest: UbiParkSDK.EnterRequest) -> UbiParkSDK.EnterResult
-  public static func enter(enterRequest: UbiParkSDK.EnterRequest, completionBlock: @escaping (UbiParkSDK.EnterResult?, Swift.Error?) -> Swift.Void)
+  public static func enter(enterRequest: UbiParkSDK.EnterRequest, completionBlock: @escaping (UbiParkSDK.EnterResult?, (any Swift.Error)?) -> Swift.Void)
   public static func exit(laneId: Swift.Int64, calculatedLaneId: Swift.Int64?) -> UbiParkSDK.ExitResult
   public static func exit(exitRequest: UbiParkSDK.ExitRequest) -> UbiParkSDK.ExitResult
-  public static func exit(exitRequest: UbiParkSDK.ExitRequest, completionBlock: @escaping (UbiParkSDK.ExitResult?, Swift.Error?) -> Swift.Void)
+  public static func exit(exitRequest: UbiParkSDK.ExitRequest, completionBlock: @escaping (UbiParkSDK.ExitResult?, (any Swift.Error)?) -> Swift.Void)
   public static func notification(beacons: [UbiParkSDK.NoticeBeaconRequest]) -> UbiParkSDK.NoticeResult
   public static func notification(noticeRequest: UbiParkSDK.NoticeRequest) -> UbiParkSDK.NoticeResult
-  public static func notification(noticeRequest: UbiParkSDK.NoticeRequest, completionBlock: @escaping (UbiParkSDK.NoticeResult?, Swift.Error?) -> Swift.Void)
+  public static func notification(noticeRequest: UbiParkSDK.NoticeRequest, completionBlock: @escaping (UbiParkSDK.NoticeResult?, (any Swift.Error)?) -> Swift.Void)
   public static func beaconPayload(beaconPayloadRequest: UbiParkSDK.BeaconPayloadRequest) -> UbiParkSDK.BeaconPayloadResult
-  public static func beaconPayload(beaconPayloadRequest: UbiParkSDK.BeaconPayloadRequest, completionBlock: @escaping (UbiParkSDK.BeaconPayloadResult?, Swift.Error?) -> Swift.Void)
+  public static func beaconPayload(beaconPayloadRequest: UbiParkSDK.BeaconPayloadRequest, completionBlock: @escaping (UbiParkSDK.BeaconPayloadResult?, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class UserAPI {
   public static func create(email: Swift.String, firstname: Swift.String, lastname: Swift.String, phoneNo: Swift.String, password: Swift.String, facebookAccessToken: Swift.String, appleIdAccessToken: Swift.String) -> UbiParkSDK.UserResult
   public static func create(userRequest: UbiParkSDK.UserRequest) -> UbiParkSDK.UserResult
-  public static func create(userRequest: UbiParkSDK.UserRequest, completionBlock: @escaping (UbiParkSDK.UserResult?, Swift.Error?) -> Swift.Void)
+  public static func create(userRequest: UbiParkSDK.UserRequest, completionBlock: @escaping (UbiParkSDK.UserResult?, (any Swift.Error)?) -> Swift.Void)
   public static func createUser(email: Swift.String, firstname: Swift.String, lastname: Swift.String, phoneNo: Swift.String) -> UbiParkSDK.CreateUserResult
   public static func createUser(createUserRequest: UbiParkSDK.CreateUserRequest) -> UbiParkSDK.CreateUserResult
-  public static func createUser(createUserRequest: UbiParkSDK.CreateUserRequest, completionBlock: @escaping (UbiParkSDK.CreateUserResult?, Swift.Error?) -> Swift.Void)
+  public static func createUser(createUserRequest: UbiParkSDK.CreateUserRequest, completionBlock: @escaping (UbiParkSDK.CreateUserResult?, (any Swift.Error)?) -> Swift.Void)
   public static func detail() -> UbiParkSDK.DetailResult
   public static func detail(detailRequest: UbiParkSDK.DetailRequest) -> UbiParkSDK.DetailResult
-  public static func detail(detailRequest: UbiParkSDK.DetailRequest, completionBlock: @escaping (UbiParkSDK.DetailResult?, Swift.Error?) -> Swift.Void)
+  public static func detail(detailRequest: UbiParkSDK.DetailRequest, completionBlock: @escaping (UbiParkSDK.DetailResult?, (any Swift.Error)?) -> Swift.Void)
   public static func update(email: Swift.String, firstName: Swift.String, lastName: Swift.String, phoneNo: Swift.String) -> UbiParkSDK.UpdateResult
   public static func update(updateRequest: UbiParkSDK.UpdateRequest) -> UbiParkSDK.UpdateResult
-  public static func update(updateRequest: UbiParkSDK.UpdateRequest, completionBlock: @escaping (UbiParkSDK.UpdateResult?, Swift.Error?) -> Swift.Void)
+  public static func update(updateRequest: UbiParkSDK.UpdateRequest, completionBlock: @escaping (UbiParkSDK.UpdateResult?, (any Swift.Error)?) -> Swift.Void)
   public static func login(username: Swift.String, password: Swift.String) -> UbiParkSDK.LoginResult
   public static func login(loginRequest: UbiParkSDK.LoginRequest) -> UbiParkSDK.LoginResult
-  public static func login(username: Swift.String, password: Swift.String, completionBlock: @escaping (UbiParkSDK.LoginResult?, Swift.Error?) -> Swift.Void)
-  public static func login(loginRequest: UbiParkSDK.LoginRequest, completionBlock: @escaping (UbiParkSDK.LoginResult?, Swift.Error?) -> Swift.Void)
+  public static func login(username: Swift.String, password: Swift.String, completionBlock: @escaping (UbiParkSDK.LoginResult?, (any Swift.Error)?) -> Swift.Void)
+  public static func login(loginRequest: UbiParkSDK.LoginRequest, completionBlock: @escaping (UbiParkSDK.LoginResult?, (any Swift.Error)?) -> Swift.Void)
   public static func authToken(email: Swift.String?, userId: Swift.Int64?) -> UbiParkSDK.AuthTokenResult
   public static func authToken(authTokenRequest: UbiParkSDK.AuthTokenRequest) -> UbiParkSDK.AuthTokenResult
-  public static func authToken(authTokenRequest: UbiParkSDK.AuthTokenRequest, completionBlock: @escaping (UbiParkSDK.AuthTokenResult?, Swift.Error?) -> Swift.Void)
+  public static func authToken(authTokenRequest: UbiParkSDK.AuthTokenRequest, completionBlock: @escaping (UbiParkSDK.AuthTokenResult?, (any Swift.Error)?) -> Swift.Void)
   public static func status() -> UbiParkSDK.StatusResult
   public static func status(statusRequest: UbiParkSDK.StatusRequest) -> UbiParkSDK.StatusResult
-  public static func status(statusRequest: UbiParkSDK.StatusRequest, completionBlock: @escaping (UbiParkSDK.StatusResult?, Swift.Error?) -> Swift.Void)
+  public static func status(statusRequest: UbiParkSDK.StatusRequest, completionBlock: @escaping (UbiParkSDK.StatusResult?, (any Swift.Error)?) -> Swift.Void)
   @objc deinit
 }
 public enum BeaconLogLevel : Swift.Int, Swift.Comparable {
@@ -600,9 +599,9 @@ public class NoticeResult : Swift.Codable {
   public var noticeMessage: UbiParkSDK.NoticeMessageResult
   public var details: [UbiParkSDK.NoticeDetailResult]
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class UpdateRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -628,8 +627,8 @@ public class UpdateRequest : Swift.Codable {
   public var phoneNo: Swift.String
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class ExitRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -653,17 +652,17 @@ public class ExitRequest : Swift.Codable {
   public var calculatedLaneId: Swift.Int64?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class NoticeDetailResult : Swift.Codable {
   public var carParkID: Swift.Int64
   public var carParkName: Swift.String
   public var lanes: [UbiParkSDK.NoticeLaneInfoResult]
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class BeaconPayloadRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -693,8 +692,8 @@ public class BeaconPayloadRequest : Swift.Codable {
   public var items: [UbiParkSDK.BeaconPayloadItem]?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class LoginResult : Swift.Codable {
   public var result: Swift.String
@@ -703,18 +702,18 @@ public class LoginResult : Swift.Codable {
   public var authenticationToken: Swift.String
   public var emailConfirmed: Swift.Bool
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class LaneBeaconResult : Swift.Codable {
   public var laneBeaconId: Swift.Int64
   public var beaconId: Swift.String
   public init()
-  required public init(from decoder: Swift.Decoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
   public static func toModel(laneBeaconResult: UbiParkSDK.LaneBeaconResult) -> UbiParkSDK.LaneBeaconModel
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public class AuthTokenRequest : Swift.Codable {
   public var appId: Swift.String
@@ -723,8 +722,8 @@ public class AuthTokenRequest : Swift.Codable {
   public var email: Swift.String?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 public class EnterRequest : Swift.Codable {
   public var appId: Swift.String?
@@ -748,8 +747,8 @@ public class EnterRequest : Swift.Codable {
   public var calculatedLaneId: Swift.Int64?
   public init()
   @objc deinit
-  public func encode(to encoder: Swift.Encoder) throws
-  required public init(from decoder: Swift.Decoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
 }
 extension UbiParkSDK.BeaconLogLevel : Swift.Hashable {}
 extension UbiParkSDK.BeaconLogLevel : Swift.RawRepresentable {}
