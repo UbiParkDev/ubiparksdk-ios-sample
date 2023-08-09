@@ -69,6 +69,7 @@ public class LoginRequest : Swift.Codable {
 public class UserResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
   public init()
@@ -79,9 +80,10 @@ public class UserResult : Swift.Codable {
 public class AuthTokenResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
-  public init(result: Swift.String = "", message: Swift.String = "", userId: Swift.Int64 = -1, authenticationToken: Swift.String = "")
+  public init(result: Swift.String = "", message: Swift.String = "", errorCode: Swift.String = "", userId: Swift.Int64 = -1, authenticationToken: Swift.String = "")
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -89,6 +91,7 @@ public class AuthTokenResult : Swift.Codable {
 public class DetailResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var accountType: Swift.String
   public var email: Swift.String
   public var firstName: Swift.String
@@ -136,6 +139,7 @@ public class LaneModel : Swift.Equatable {
 public class DetailsResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var carParkId: Swift.Int64
   public var carParkName: Swift.String
   public var availableSpaces: Swift.Int64
@@ -174,6 +178,7 @@ public class NoticeRequest : Swift.Codable {
 public class CreateUserResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
   public init()
@@ -184,7 +189,8 @@ public class CreateUserResult : Swift.Codable {
 public class BeaconPayloadResult : Swift.Codable {
   public var result: Swift.String?
   public var message: Swift.String?
-  public init(result: Swift.String? = nil, message: Swift.String? = nil)
+  public var errorCode: Swift.String?
+  public init(result: Swift.String? = nil, message: Swift.String? = nil, errorCode: Swift.String? = nil)
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
@@ -217,6 +223,7 @@ public class DetailsRequest : Swift.Codable {
 public class UpdateResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public init()
   required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
@@ -333,6 +340,7 @@ public class BeaconService {
 public class CarParkModel {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var carParkId: Swift.Int64
   public var carParkName: Swift.String
   public var availableSpaces: Swift.Int64
@@ -344,6 +352,7 @@ public class CarParkModel {
 public class StatusResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String?
+  public var errorCode: Swift.String
   public var accountType: Swift.String
   public var emailConfirmed: Swift.Bool
   public var accessStatus: Swift.String
@@ -400,6 +409,7 @@ public class CreateUserRequest : Swift.Codable {
 public class EnterResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var reservedBay: Swift.String
   public init()
   required public init(from decoder: any Swift.Decoder) throws
@@ -432,6 +442,7 @@ public class DetailRequest : Swift.Codable {
 public class ExitResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var entryTime: Foundation.Date?
   public var secondsInCarPark: Swift.Int64?
   public var amount: Swift.Double?
@@ -595,6 +606,7 @@ public struct UbiParkSDKConfig {
 public class NoticeResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var shouldPopup: Swift.Bool
   public var noticeMessage: UbiParkSDK.NoticeMessageResult
   public var details: [UbiParkSDK.NoticeDetailResult]
@@ -698,6 +710,7 @@ public class BeaconPayloadRequest : Swift.Codable {
 public class LoginResult : Swift.Codable {
   public var result: Swift.String
   public var message: Swift.String
+  public var errorCode: Swift.String
   public var userId: Swift.Int64
   public var authenticationToken: Swift.String
   public var emailConfirmed: Swift.Bool

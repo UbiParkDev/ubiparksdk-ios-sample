@@ -4436,6 +4436,93 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK10UserResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK10UserResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK10UserResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK10UserResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK10UserResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK10UserResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK10UserResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK10UserResultC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "userId",
             "printedName": "userId",
             "children": [
@@ -4900,6 +4987,92 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK15AuthTokenResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK15AuthTokenResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK15AuthTokenResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK15AuthTokenResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK15AuthTokenResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK15AuthTokenResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK15AuthTokenResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK15AuthTokenResultC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "userId",
             "printedName": "userId",
             "children": [
@@ -5073,13 +5246,20 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(result:message:userId:authenticationToken:)",
+            "printedName": "init(result:message:errorCode:userId:authenticationToken:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "AuthTokenResult",
                 "printedName": "UbiParkSDK.AuthTokenResult",
                 "usr": "s:10UbiParkSDK15AuthTokenResultC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "hasDefaultArg": true,
+                "usr": "s:SS"
               },
               {
                 "kind": "TypeNominal",
@@ -5111,8 +5291,8 @@
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10UbiParkSDK15AuthTokenResultC6result7message6userId014authenticationE0ACSS_SSs5Int64VSStcfc",
-            "mangledName": "$s10UbiParkSDK15AuthTokenResultC6result7message6userId014authenticationE0ACSS_SSs5Int64VSStcfc",
+            "usr": "s:10UbiParkSDK15AuthTokenResultC6result7message9errorCode6userId014authenticationE0ACSS_S2Ss5Int64VSStcfc",
+            "mangledName": "$s10UbiParkSDK15AuthTokenResultC6result7message9errorCode6userId014authenticationE0ACSS_S2Ss5Int64VSStcfc",
             "moduleName": "UbiParkSDK",
             "declAttributes": [
               "AccessControl",
@@ -5384,6 +5564,93 @@
                 "declKind": "Accessor",
                 "usr": "s:10UbiParkSDK12DetailResultC7messageSSvM",
                 "mangledName": "$s10UbiParkSDK12DetailResultC7messageSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK12DetailResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK12DetailResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12DetailResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK12DetailResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12DetailResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK12DetailResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12DetailResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK12DetailResultC9errorCodeSSvM",
                 "moduleName": "UbiParkSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -8858,6 +9125,93 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK13DetailsResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK13DetailsResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK13DetailsResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK13DetailsResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK13DetailsResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK13DetailsResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK13DetailsResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK13DetailsResultC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "carParkId",
             "printedName": "carParkId",
             "children": [
@@ -11754,6 +12108,93 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK16CreateUserResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK16CreateUserResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK16CreateUserResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK16CreateUserResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK16CreateUserResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK16CreateUserResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK16CreateUserResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK16CreateUserResultC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "userId",
             "printedName": "userId",
             "children": [
@@ -12267,9 +12708,120 @@
             ]
           },
           {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvp",
+            "mangledName": "$s10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvg",
+                "mangledName": "$s10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvs",
+                "mangledName": "$s10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvM",
+                "mangledName": "$s10UbiParkSDK19BeaconPayloadResultC9errorCodeSSSgvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(result:message:)",
+            "printedName": "init(result:message:errorCode:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -12306,11 +12858,26 @@
                 ],
                 "hasDefaultArg": true,
                 "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
               }
             ],
             "declKind": "Constructor",
-            "usr": "s:10UbiParkSDK19BeaconPayloadResultC6result7messageACSSSg_AFtcfc",
-            "mangledName": "$s10UbiParkSDK19BeaconPayloadResultC6result7messageACSSSg_AFtcfc",
+            "usr": "s:10UbiParkSDK19BeaconPayloadResultC6result7message9errorCodeACSSSg_A2Gtcfc",
+            "mangledName": "$s10UbiParkSDK19BeaconPayloadResultC6result7message9errorCodeACSSSg_A2Gtcfc",
             "moduleName": "UbiParkSDK",
             "declAttributes": [
               "AccessControl",
@@ -14808,6 +15375,93 @@
                 "declKind": "Accessor",
                 "usr": "s:10UbiParkSDK12UpdateResultC7messageSSvM",
                 "mangledName": "$s10UbiParkSDK12UpdateResultC7messageSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK12UpdateResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK12UpdateResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12UpdateResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK12UpdateResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12UpdateResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK12UpdateResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12UpdateResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK12UpdateResultC9errorCodeSSvM",
                 "moduleName": "UbiParkSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -21194,6 +21848,93 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK03CarB5ModelC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK03CarB5ModelC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK03CarB5ModelC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK03CarB5ModelC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK03CarB5ModelC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK03CarB5ModelC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK03CarB5ModelC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK03CarB5ModelC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "carParkId",
             "printedName": "carParkId",
             "children": [
@@ -21890,6 +22631,93 @@
                 "declKind": "Accessor",
                 "usr": "s:10UbiParkSDK12StatusResultC7messageSSSgvM",
                 "mangledName": "$s10UbiParkSDK12StatusResultC7messageSSSgvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK12StatusResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK12StatusResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12StatusResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK12StatusResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12StatusResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK12StatusResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12StatusResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK12StatusResultC9errorCodeSSvM",
                 "moduleName": "UbiParkSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -26561,6 +27389,93 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK11EnterResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK11EnterResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK11EnterResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK11EnterResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK11EnterResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK11EnterResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK11EnterResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK11EnterResultC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "reservedBay",
             "printedName": "reservedBay",
             "children": [
@@ -28936,6 +29851,93 @@
                 "declKind": "Accessor",
                 "usr": "s:10UbiParkSDK10ExitResultC7messageSSvM",
                 "mangledName": "$s10UbiParkSDK10ExitResultC7messageSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK10ExitResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK10ExitResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK10ExitResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK10ExitResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK10ExitResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK10ExitResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK10ExitResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK10ExitResultC9errorCodeSSvM",
                 "moduleName": "UbiParkSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -36399,6 +37401,93 @@
                 "declKind": "Accessor",
                 "usr": "s:10UbiParkSDK12NoticeResultC7messageSSvM",
                 "mangledName": "$s10UbiParkSDK12NoticeResultC7messageSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK12NoticeResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK12NoticeResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12NoticeResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK12NoticeResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12NoticeResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK12NoticeResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK12NoticeResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK12NoticeResultC9errorCodeSSvM",
                 "moduleName": "UbiParkSDK",
                 "implicit": true,
                 "accessorKind": "_modify"
@@ -44867,6 +45956,93 @@
           },
           {
             "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:10UbiParkSDK11LoginResultC9errorCodeSSvp",
+            "mangledName": "$s10UbiParkSDK11LoginResultC9errorCodeSSvp",
+            "moduleName": "UbiParkSDK",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK11LoginResultC9errorCodeSSvg",
+                "mangledName": "$s10UbiParkSDK11LoginResultC9errorCodeSSvg",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK11LoginResultC9errorCodeSSvs",
+                "mangledName": "$s10UbiParkSDK11LoginResultC9errorCodeSSvs",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:10UbiParkSDK11LoginResultC9errorCodeSSvM",
+                "mangledName": "$s10UbiParkSDK11LoginResultC9errorCodeSSvM",
+                "moduleName": "UbiParkSDK",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
             "name": "userId",
             "printedName": "userId",
             "children": [
@@ -48480,99 +49656,127 @@
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 567,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 516,
+      "offset": 673,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 795,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "StringLiteral",
-      "offset": 1189,
+      "offset": 1346,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "StringLiteral",
-      "offset": 1278,
+      "offset": 1435,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1521,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1357,
+      "offset": 1600,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UserResult.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1706,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
-      "offset": 927,
+      "offset": 1079,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
-      "offset": 949,
+      "offset": 1101,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1125,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 969,
+      "offset": 1145,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
-      "offset": 1003,
+      "offset": 1179,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
-      "offset": 1630,
+      "offset": 1841,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
-      "offset": 1719,
+      "offset": 1930,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2016,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1798,
+      "offset": 2095,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/AuthTokenResult.swift",
       "kind": "StringLiteral",
-      "offset": 1904,
+      "offset": 2201,
       "length": 2,
       "value": "\"\""
     },
@@ -48593,140 +49797,154 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 515,
+      "offset": 552,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 583,
+      "offset": 672,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 651,
+      "offset": 740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 717,
+      "offset": 808,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 792,
+      "offset": 874,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 983,
+      "offset": 949,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 1088,
+      "offset": 1140,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 1207,
+      "offset": 1245,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 1312,
+      "offset": 1364,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2093,
+      "offset": 1469,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 2250,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2182,
+      "offset": 2339,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2272,
+      "offset": 2425,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2350,
+      "offset": 2515,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2436,
+      "offset": 2593,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2520,
+      "offset": 2679,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2602,
+      "offset": 2763,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2794,
+      "offset": 2845,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2888,
+      "offset": 3037,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 2994,
+      "offset": 3131,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
       "kind": "StringLiteral",
-      "offset": 3088,
+      "offset": 3237,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailResult.swift",
+      "kind": "StringLiteral",
+      "offset": 3331,
       "length": 2,
       "value": "\"\""
     },
@@ -48802,71 +50020,85 @@
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 476,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "StringLiteral",
-      "offset": 540,
+      "offset": 557,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 632,
+      "offset": 633,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "StringLiteral",
+      "offset": 697,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 789,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 716,
+      "offset": 873,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "StringLiteral",
-      "offset": 1374,
+      "offset": 1531,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "StringLiteral",
-      "offset": 1463,
+      "offset": 1620,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1706,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1548,
+      "offset": 1791,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "StringLiteral",
-      "offset": 1637,
+      "offset": 1880,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1734,
+      "offset": 1977,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/DetailsResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 1822,
+      "offset": 2065,
       "length": 5,
       "value": "false"
     },
@@ -48886,57 +50118,78 @@
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
-      "kind": "IntegerLiteral",
-      "offset": 468,
-      "length": 2,
-      "value": "-1"
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
       "kind": "StringLiteral",
-      "offset": 556,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1123,
-      "length": 9,
-      "value": "\"Failure\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1212,
+      "offset": 552,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1291,
+      "offset": 625,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
       "kind": "StringLiteral",
-      "offset": 1397,
+      "offset": 713,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1280,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1369,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1455,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1534,
+      "length": 2,
+      "value": "-1"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CreateUserResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1640,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconPayloadResult.swift",
       "kind": "StringLiteral",
-      "offset": 1213,
+      "offset": 1431,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconPayloadResult.swift",
       "kind": "StringLiteral",
-      "offset": 1302,
+      "offset": 1520,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/BeaconPayloadResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1606,
       "length": 2,
       "value": "\"\""
     },
@@ -48957,14 +50210,28 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
       "kind": "StringLiteral",
-      "offset": 944,
+      "offset": 549,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1101,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
       "kind": "StringLiteral",
-      "offset": 1033,
+      "offset": 1190,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/UpdateResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
       "length": 2,
       "value": "\"\""
     },
@@ -51161,29 +52428,36 @@
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
-      "kind": "IntegerLiteral",
-      "offset": 494,
-      "length": 1,
-      "value": "0"
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
       "kind": "StringLiteral",
-      "offset": 558,
+      "offset": 575,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
       "kind": "IntegerLiteral",
-      "offset": 650,
+      "offset": 652,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
+      "kind": "StringLiteral",
+      "offset": 716,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
+      "kind": "IntegerLiteral",
+      "offset": 808,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/CarParkModel.swift",
       "kind": "BooleanLiteral",
-      "offset": 734,
+      "offset": 892,
       "length": 5,
       "value": "false"
     },
@@ -51204,196 +52478,210 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 518,
+      "offset": 555,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 665,
+      "offset": 822,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 772,
+      "offset": 929,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 863,
+      "offset": 1020,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 963,
+      "offset": 1120,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 1549,
+      "offset": 1706,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 1654,
+      "offset": 1811,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 1773,
+      "offset": 1930,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 1878,
+      "offset": 2035,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 2082,
+      "offset": 2239,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 2169,
+      "offset": 2326,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 2265,
+      "offset": 2422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 2582,
+      "offset": 2739,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 3135,
+      "offset": 3292,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 3224,
+      "offset": 3381,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 3314,
+      "offset": 3467,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3408,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 3503,
+      "offset": 3557,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 3587,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
-      "kind": "BooleanLiteral",
-      "offset": 3672,
+      "offset": 3651,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 4195,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
-      "kind": "StringLiteral",
-      "offset": 4289,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
-      "kind": "StringLiteral",
-      "offset": 4395,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
-      "kind": "StringLiteral",
-      "offset": 4489,
-      "length": 2,
-      "value": "\"\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
-      "kind": "StringLiteral",
-      "offset": 4658,
+      "offset": 3746,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 4748,
+      "offset": 3830,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 4831,
+      "offset": 3915,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
       "kind": "StringLiteral",
-      "offset": 5094,
+      "offset": 4438,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4532,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4638,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4732,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 4901,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5074,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/StatusResult.swift",
+      "kind": "StringLiteral",
+      "offset": 5337,
       "length": 2,
       "value": "\"\""
     },
@@ -51442,28 +52730,42 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
       "kind": "StringLiteral",
-      "offset": 496,
+      "offset": 548,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
       "kind": "StringLiteral",
-      "offset": 1049,
+      "offset": 653,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1206,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
       "kind": "StringLiteral",
-      "offset": 1138,
+      "offset": 1295,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
       "kind": "StringLiteral",
-      "offset": 1228,
+      "offset": 1381,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/EnterResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1471,
       "length": 2,
       "value": "\"\""
     },
@@ -51484,14 +52786,28 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
       "kind": "StringLiteral",
-      "offset": 1237,
+      "offset": 545,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1394,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
       "kind": "StringLiteral",
-      "offset": 1326,
+      "offset": 1483,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/ExitResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
       "length": 2,
       "value": "\"\""
     },
@@ -51652,434 +52968,469 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2255,
+      "offset": 1798,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2304,
       "length": 22,
       "value": "\"\/v4.0\/carpark\/detail\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2443,
+      "offset": 2492,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2475,
+      "offset": 2524,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2515,
+      "offset": 2564,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2556,
+      "offset": 2605,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2596,
+      "offset": 2645,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2719,
+      "offset": 2768,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2853,
+      "offset": 2902,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 3500,
+      "offset": 3549,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4167,
+      "offset": 4216,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4217,
+      "offset": 4266,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5816,
+      "offset": 5939,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 5897,
+      "offset": 6020,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6390,
+      "offset": 6065,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6560,
       "length": 21,
       "value": "\"\/v4.0\/carpark\/enter\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6577,
+      "offset": 6747,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6609,
+      "offset": 6779,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6649,
+      "offset": 6819,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6690,
+      "offset": 6860,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6730,
+      "offset": 6900,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6851,
+      "offset": 7021,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6983,
+      "offset": 7153,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 7628,
+      "offset": 7798,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8100,
+      "offset": 8270,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8148,
+      "offset": 8318,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9706,
+      "offset": 9948,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9786,
+      "offset": 10028,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10270,
+      "offset": 10072,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10558,
       "length": 20,
       "value": "\"\/v4.0\/carpark\/exit\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10456,
+      "offset": 10744,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10488,
+      "offset": 10776,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10528,
+      "offset": 10816,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10569,
+      "offset": 10857,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10609,
+      "offset": 10897,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10729,
+      "offset": 11017,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10860,
+      "offset": 11148,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 11504,
+      "offset": 11792,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 12369,
+      "offset": 12657,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 12416,
+      "offset": 12704,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13999,
+      "offset": 14358,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14081,
+      "offset": 14440,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14613,
+      "offset": 14486,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 15020,
       "length": 28,
       "value": "\"\/v4.0\/carpark\/notification\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14807,
+      "offset": 15214,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14839,
+      "offset": 15246,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14879,
+      "offset": 15286,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14920,
+      "offset": 15327,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14960,
+      "offset": 15367,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15082,
+      "offset": 15489,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15215,
+      "offset": 15622,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15861,
+      "offset": 16268,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 16339,
+      "offset": 16746,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 16388,
+      "offset": 16795,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 17402,
+      "offset": 17882,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18067,
+      "offset": 18018,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 18602,
       "length": 29,
       "value": "\"\/v4.0\/carpark\/beaconpayload\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18262,
+      "offset": 18797,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18294,
+      "offset": 18829,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18334,
+      "offset": 18869,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18375,
+      "offset": 18910,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18415,
+      "offset": 18950,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18544,
+      "offset": 19079,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18684,
+      "offset": 19219,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 19337,
+      "offset": 19872,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 19857,
+      "offset": 20392,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/CarParkAPI.swift",
       "kind": "StringLiteral",
-      "offset": 19913,
+      "offset": 20448,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
@@ -52100,595 +53451,644 @@
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2581,
+      "offset": 2155,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 2627,
       "length": 19,
       "value": "\"\/v4.0\/user\/create\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2766,
+      "offset": 2812,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2798,
+      "offset": 2844,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2838,
+      "offset": 2884,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2879,
+      "offset": 2925,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 2919,
+      "offset": 2965,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3039,
+      "offset": 3085,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 3170,
+      "offset": 3216,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 3814,
+      "offset": 3860,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4280,
+      "offset": 4326,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 4327,
+      "offset": 4373,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6179,
+      "offset": 6296,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6265,
+      "offset": 6382,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6788,
+      "offset": 6432,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 6957,
       "length": 23,
       "value": "\"\/v4.0\/user\/createuser\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 6977,
+      "offset": 7146,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7009,
+      "offset": 7178,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7049,
+      "offset": 7218,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7090,
+      "offset": 7259,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 7130,
+      "offset": 7299,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 7757,
+      "offset": 7926,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8259,
+      "offset": 8428,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 8312,
+      "offset": 8481,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9610,
+      "offset": 9856,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 9692,
+      "offset": 9938,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10201,
+      "offset": 9984,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 10495,
       "length": 19,
       "value": "\"\/v4.0\/user\/detail\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10386,
+      "offset": 10680,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10418,
+      "offset": 10712,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10458,
+      "offset": 10752,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10499,
+      "offset": 10793,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10539,
+      "offset": 10833,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10661,
+      "offset": 10955,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 10794,
+      "offset": 11088,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 11440,
+      "offset": 11734,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11918,
+      "offset": 12212,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 11967,
+      "offset": 12261,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13683,
+      "offset": 14050,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 13765,
+      "offset": 14132,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14262,
+      "offset": 14178,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 14677,
       "length": 19,
       "value": "\"\/v4.0\/user\/update\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14447,
+      "offset": 14862,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14479,
+      "offset": 14894,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14519,
+      "offset": 14934,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14560,
+      "offset": 14975,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14600,
+      "offset": 15015,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14722,
+      "offset": 15137,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 14855,
+      "offset": 15270,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 15501,
+      "offset": 15916,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 15979,
+      "offset": 16394,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 16028,
+      "offset": 16443,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 17446,
+      "offset": 17934,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 17527,
+      "offset": 18015,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18686,
+      "offset": 18060,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 19221,
       "length": 18,
       "value": "\"\/v4.0\/user\/login\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18870,
+      "offset": 19405,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18902,
+      "offset": 19437,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18942,
+      "offset": 19477,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 18983,
+      "offset": 19518,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 19023,
+      "offset": 19558,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 19144,
+      "offset": 19679,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 19276,
+      "offset": 19811,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 19921,
+      "offset": 20456,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 20479,
+      "offset": 21014,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 20527,
+      "offset": 21062,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 22184,
+      "offset": 22791,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 22269,
+      "offset": 22876,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 22806,
+      "offset": 22925,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 23464,
       "length": 22,
       "value": "\"\/v4.0\/user\/authtoken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 22994,
+      "offset": 23652,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 23026,
+      "offset": 23684,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 23066,
+      "offset": 23724,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 23107,
+      "offset": 23765,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 23147,
+      "offset": 23805,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 23773,
+      "offset": 24431,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 24269,
+      "offset": 24927,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 24321,
+      "offset": 24979,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25517,
+      "offset": 26251,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 25599,
+      "offset": 26333,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26097,
+      "offset": 26379,
+      "length": 4,
+      "value": "\"-1\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
+      "kind": "StringLiteral",
+      "offset": 26879,
       "length": 19,
       "value": "\"\/v4.0\/user\/status\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26282,
+      "offset": 27064,
       "length": 6,
       "value": "\"POST\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26314,
+      "offset": 27096,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26354,
+      "offset": 27136,
       "length": 14,
       "value": "\"Content-Type\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26395,
+      "offset": 27177,
       "length": 18,
       "value": "\"application\/json\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26435,
+      "offset": 27217,
       "length": 8,
       "value": "\"Accept\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26557,
+      "offset": 27339,
       "length": 8,
       "value": "\"UserID\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 26690,
+      "offset": 27472,
       "length": 21,
       "value": "\"AuthenticationToken\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "IntegerLiteral",
-      "offset": 27336,
+      "offset": 28118,
       "length": 3,
       "value": "200"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 28305,
+      "offset": 29087,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/API\/UserAPI.swift",
       "kind": "StringLiteral",
-      "offset": 28354,
+      "offset": 29136,
       "length": 22,
       "value": "\"Http Status failed: \""
     },
@@ -52802,7 +54202,7 @@
       "kind": "StringLiteral",
       "offset": 952,
       "length": 7,
-      "value": "\"2.0.3\""
+      "value": "\"2.0.4\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/UbiParkSDKConfig.swift",
@@ -52960,29 +54360,43 @@
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
-      "kind": "BooleanLiteral",
-      "offset": 461,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
       "kind": "StringLiteral",
-      "offset": 1215,
-      "length": 9,
-      "value": "\"Failure\""
-    },
-    {
-      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
-      "kind": "StringLiteral",
-      "offset": 1304,
+      "offset": 538,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 1392,
+      "offset": 618,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1372,
+      "length": 9,
+      "value": "\"Failure\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1461,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1547,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/NoticeResult.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1635,
       "length": 5,
       "value": "false"
     },
@@ -53065,57 +54479,71 @@
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "StringLiteral",
+      "offset": 540,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 489,
+      "offset": 646,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "StringLiteral",
-      "offset": 611,
+      "offset": 768,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 733,
+      "offset": 890,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "StringLiteral",
-      "offset": 1289,
+      "offset": 1446,
       "length": 9,
       "value": "\"Failure\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "StringLiteral",
-      "offset": 1378,
+      "offset": 1535,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
+      "kind": "StringLiteral",
+      "offset": 1621,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "IntegerLiteral",
-      "offset": 1457,
+      "offset": 1700,
       "length": 2,
       "value": "-1"
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "StringLiteral",
-      "offset": 1563,
+      "offset": 1806,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/Admin\/Documents\/UbiPark\/Dev\/UbiParkSDK\/UbiParkSDK\/Models\/LoginResult.swift",
       "kind": "BooleanLiteral",
-      "offset": 1657,
+      "offset": 1900,
       "length": 5,
       "value": "false"
     },

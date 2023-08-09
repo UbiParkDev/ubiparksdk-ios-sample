@@ -14,27 +14,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		Kw23yCkmSO3P4Hoazt12LHMhaYw=
+		hNl4IV6JUSAmRCopTZrDLJxBgp4=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		fsRXGy81h1aSRAczzu2EKoKRcOg=
+		Lma9h4/jmqlKCP1BoBNMM6X+yRE=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		k29nxCQwONQYs59vxIJjLL2wR9U=
+		vPPrA4Y+oHlmnzpLsbyTWpS5Iss=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		ZMzb3bYwplKWCNg7tkS4KVJgl4o=
+		qO4tkpAtoD38XmD7eQmYzb5X18o=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		k29nxCQwONQYs59vxIJjLL2wR9U=
+		vPPrA4Y+oHlmnzpLsbyTWpS5Iss=
 		</data>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		0BCGrQ/TAKwp7BjFTLOGSQjOIHw=
+		uKgB7krCGAShRAnvWciQDLVH+tQ=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -61,35 +61,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			fey3GLQoFSqpEST54PoiPSVs2G8dg6GnPwsgzax8FHY=
+			jCAuCZwszfuvRr8UEVxIleU4egB/hUVabTPYrayHGEE=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v3LuXLBCfp69BK0FE0u6sqR4YimgucwMIE9NUxFOKtM=
+			sqfPi6vRe1CyPam7yU7JfQjNu0oeGQColUR46xFxiv8=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			q8lba4vWhFahwYVto7IlFEFsZAHcvbgSuSofQQ8KoCs=
+			Lioz64jw19q5jxu3kiHjmcLC8BiJ36nGtwlcjuJxZR4=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			v3LuXLBCfp69BK0FE0u6sqR4YimgucwMIE9NUxFOKtM=
+			sqfPi6vRe1CyPam7yU7JfQjNu0oeGQColUR46xFxiv8=
 			</data>
 		</dict>
 		<key>Modules/UbiParkSDK.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Y91DhbE8upPpTJXUczNsrFJcCtEEb04g208NoUUSTs8=
+			/OWwk3nK0F4WFxpZ9eQV8IBwH2c9AewNcIFR41n9yfw=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

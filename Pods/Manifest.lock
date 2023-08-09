@@ -1,7 +1,7 @@
 PODS:
   - KontaktSDK (3.0.26)
   - Toaster (2.3.0)
-  - UbiParkSDK (2.0.3)
+  - UbiParkSDK (2.0.4)
 
 DEPENDENCIES:
   - KontaktSDK (~> 3.0)
@@ -19,13 +19,13 @@ EXTERNAL SOURCES:
 
 CHECKOUT OPTIONS:
   UbiParkSDK:
-    :commit: 30566fffaeb3268dd6bbceefc1fe9232c8f4d50d
+    :commit: ccd68a3d6cc3803cee42d67f1ae0624fd6255fea
     :git: https://github.com/UbiParkDev/ubiparksdk-ios.git
 
 SPEC CHECKSUMS:
   KontaktSDK: 988dafe70f470cbacce9620a1aff310fa28129cf
   Toaster: c3473963c78e8cabbf6ea6f11ad0fdaae6f54987
-  UbiParkSDK: f872b9ef580646b3446d4b3be9d9fbe31912fcfb
+  UbiParkSDK: b34c93470f7957fe881697fe185ae92404ab7f47
 
 PODFILE CHECKSUM: b784704eadcb27c6f3569397dfc9ea2f7011c156
 
